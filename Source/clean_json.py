@@ -1,3 +1,4 @@
+# Converts NaN files to null in JSON in react/public/jsons/
 import json
 import math
 

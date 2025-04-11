@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #1e1e1e; /* dark grey */
+    color: #f0f0f0; /* light text */
+  }
+
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;   /* aligns items to the left */
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding-left: 3rem;        /* optional: add some space from left edge */
+  }
+  
+  
+  h1, h2 {
+    text-align: left;
+    color: #ffffff;
+  }
+  
+  .wordcloud-wrapper {
+    text-align: left;
+    padding: 2rem 3rem;
+    color: #fff;
+  }
+  
+  .wordcloud-wrapper h2 {
+    margin-bottom: 0.5rem;
+    font-size: 1.75rem;
+  }
+  
+  svg {
+    display: block;
+    margin: 0; /* remove auto-centering */
+  }

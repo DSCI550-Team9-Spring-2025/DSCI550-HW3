@@ -1,3 +1,0 @@
-## Progress
-
-![image](image.png)

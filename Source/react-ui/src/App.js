@@ -8,7 +8,33 @@ function App() {
         <h1>Haunted Places in the US</h1>
         <h2>Visualized with D3</h2>
       </div>
-      <WordCloud />
+
+      <div className="viz-grid">
+        <div className="viz-item">
+          <WordCloud />
+        </div>
+
+        <div className="viz-item">
+          <h2>Visualization 2</h2>
+          <div className="viz-placeholder">[TBD]</div>
+        </div>
+
+        <div className="viz-item">
+          <h2>Visualization 3</h2>
+          <div className="viz-placeholder">[TBD]</div>
+        </div>
+
+        <div className="viz-item">
+          <h2>Visualization 4</h2>
+          <div className="viz-placeholder">[TBD]</div>
+        </div>
+
+        <div className="viz-item">
+          <h2>Visualization 5</h2>
+          <div className="viz-placeholder">[TBD]</div>
+        </div>
+      </div>
+
     </div>
   );
 }

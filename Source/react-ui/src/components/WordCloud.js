@@ -67,7 +67,6 @@ const WordCloud = () => {
   return (
     <div className="wordcloud-wrapper">
       <h2>Word Cloud</h2>
-      <hr></hr>
       <div ref={containerRef}></div>
     </div>
   );

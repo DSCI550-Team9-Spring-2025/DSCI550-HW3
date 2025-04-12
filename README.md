@@ -1,6 +1,6 @@
 # DSCI550-HW3
 ...
 ## Progress
-React for D3 visualization (sample: WordCloud)
-![image](https://github.com/user-attachments/assets/05e97945-acaf-4b63-9930-43e5da3dd422)
+React for D3 visualization<br>
+![image](https://github.com/user-attachments/assets/64a92d6b-614b-4e1f-85b7-97027394efe8)
 

@@ -7,15 +7,13 @@ const WordCloud = () => {
   const [descriptionsText, setDescriptionsText] = useState(""); // <-- it's a string now
 
   useEffect(() => {
-    fetch(process.env.PUBLIC_URL + "/jsons/subset_15.json")
+    fetch(process.env.PUBLIC_URL + "/WordCloud/descriptions_1.json")
       .then(res => res.json())
       .then(json => {
         const descriptions = json
-          .map(d => d.description)
           .filter(desc => typeof desc === "string" && desc.trim() !== "")
           .join(" ");
         setDescriptionsText(descriptions);
-        console.log("Descriptions loaded:", descriptions.slice(0, 100));
       })
       .catch(err => console.error("Failed to load data:", err));
   }, []);

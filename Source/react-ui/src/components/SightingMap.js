@@ -6,6 +6,7 @@ const SpikeMap = () => {
   const ref = useRef();
   const [sightings, setSightings] = useState([]);
 
+	// Load sighting map
   useEffect(() => {
       fetch(process.env.PUBLIC_URL + "/SightingMap/us.json")
         .then(res => res.json())
@@ -13,8 +14,8 @@ const SpikeMap = () => {
         .catch(err => console.error("Failed to load sightings:", err));
     }, []);
 
+	// Load TopoJSON US map
   useEffect(() => {
-    // Load the TopoJSON US map
     fetch(process.env.PUBLIC_URL + "/SightingMap/usMap.json")
       .then(res => res.json())
       .then(us => {
@@ -30,7 +31,7 @@ const SpikeMap = () => {
 
         // Fill background with merged state shapes
         svg.append("path")
-          .datum(topojson.feature(us, us.objects.states)) // ✅ check this matches usMap.json
+          .datum(topojson.feature(us, us.objects.states))
           .attr("fill", "#444")
           .attr("d", path);
 

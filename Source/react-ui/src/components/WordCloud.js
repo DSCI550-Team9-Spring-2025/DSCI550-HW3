@@ -6,6 +6,7 @@ const WordCloud = () => {
   const containerRef = useRef();
   const [descriptionsText, setDescriptionsText] = useState(""); // <-- it's a string now
 
+  // Load description
   useEffect(() => {
     fetch(process.env.PUBLIC_URL + "/WordCloud/descriptions_1.json")
       .then(res => res.json())
@@ -18,6 +19,7 @@ const WordCloud = () => {
       .catch(err => console.error("Failed to load data:", err));
   }, []);
 
+  // Load WordCloud
   useEffect(() => {
     if (!descriptionsText || typeof descriptionsText !== "string") return;
 

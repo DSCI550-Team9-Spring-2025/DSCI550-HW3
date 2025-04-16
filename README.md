@@ -2,5 +2,6 @@
 ...
 ## Progress
 React for D3 visualization<br>
-![image](https://github.com/user-attachments/assets/64a92d6b-614b-4e1f-85b7-97027394efe8)
+![image](https://github.com/user-attachments/assets/cb32462b-a219-465e-8a90-d0df020c0a2b)
+
 

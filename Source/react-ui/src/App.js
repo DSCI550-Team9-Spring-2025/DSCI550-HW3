@@ -1,7 +1,10 @@
 import React from 'react';
 import WordCloud from './components/WordCloud';
+import SpikeMap from './components/SightingMap';
 
 function App() {
+
+
   return (
     <div className="App">
       <div className="title-wrapper">
@@ -20,8 +23,7 @@ function App() {
         </div>
 
         <div className="viz-item">
-          <h2>Visualization 3</h2>
-          <div className="viz-placeholder">[TBD]</div>
+          <SpikeMap />
         </div>
 
         <div className="viz-item">

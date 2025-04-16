@@ -78,3 +78,14 @@ body {
   padding-bottom: 0.5rem;
   border-bottom: 1px solid #999;
 }
+
+.spike-map-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.spike-map-wrapper h2 {
+  text-align: center;
+  color: #fff;
+}

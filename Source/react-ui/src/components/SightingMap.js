@@ -1,9 +1,17 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import * as d3 from "d3";
 import * as topojson from "topojson-client";
 
-const SpikeMap = ({ sightings }) => {
+const SpikeMap = () => {
   const ref = useRef();
+  const [sightings, setSightings] = useState([]);
+
+  useEffect(() => {
+      fetch(process.env.PUBLIC_URL + "/SightingMap/us.json")
+        .then(res => res.json())
+        .then(data => setSightings(data))
+        .catch(err => console.error("Failed to load sightings:", err));
+    }, []);
 
   useEffect(() => {
     // Load the TopoJSON US map

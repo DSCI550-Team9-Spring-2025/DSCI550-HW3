@@ -4,11 +4,21 @@ import d3Cloud from 'd3-cloud';
 
 const WordCloud = () => {
   const containerRef = useRef();
-  const [descriptionsText, setDescriptionsText] = useState(""); // <-- it's a string now
+  const [descriptionsText, setDescriptionsText] = useState("");
+  const [fileIndex, setFileIndex] = useState(1);
+
+  // Rotate descriptions every 8 seconds
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setFileIndex(prev => (prev < 50 ? prev + 1 : 1));
+    }, 8000);
+    return () => clearInterval(interval);
+  }, []);
+  
 
   // Load description
   useEffect(() => {
-    fetch(process.env.PUBLIC_URL + "/WordCloud/descriptions_1.json")
+    fetch(process.env.PUBLIC_URL + `/WordCloud/descriptions_${fileIndex}.json`)
       .then(res => res.json())
       .then(json => {
         const descriptions = json
@@ -17,7 +27,7 @@ const WordCloud = () => {
         setDescriptionsText(descriptions);
       })
       .catch(err => console.error("Failed to load data:", err));
-  }, []);
+  }, [fileIndex]);
 
   // Load WordCloud
   useEffect(() => {

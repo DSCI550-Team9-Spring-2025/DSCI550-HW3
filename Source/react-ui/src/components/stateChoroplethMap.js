@@ -48,7 +48,7 @@ const ChoroplethMap = () => {
         
 
 
-        // Inputs the suicide rates per capita
+        // Inputs the death rates per capita
         const dataMap = new Map(
         aggData.map(d => [d.state.trim().toLowerCase(), +d[selectedMetric]])
         );
@@ -59,7 +59,7 @@ const ChoroplethMap = () => {
         .domain(d3.extent(metricValues)) // [min, max] range based on data
         .interpolator(d3.interpolateReds);
         
-        // Legend for the suicide rate scale
+        // Legend that dynamically adapts to the metricValue user selects
         const legend = legendColor()
           .labelFormat(d3.format(".0f"))
           .scale(color)
@@ -108,7 +108,7 @@ const ChoroplethMap = () => {
           .text(d => {
             const stateName = d.properties.name.trim().toLowerCase();
             const rate = dataMap.get(stateName);
-            return `${d.properties.name}\nSuicide Rate: ${rate ?? "No data"}`;
+            return `${d.properties.name}\n${selectedMetric.replace(/_/g, " ").replace(/\b\w/g, l => l.toUpperCase())}: ${rate ?? "No data"}`;
           });
 
         // State value labels

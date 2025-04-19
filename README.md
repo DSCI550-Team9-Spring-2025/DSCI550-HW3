@@ -5,4 +5,5 @@ Insights visualization of the Haunted Places in the US dataset using D3 along wi
 ## Progress
 
 React for D3 visualization<br>
-![image](https://github.com/user-attachments/assets/cb32462b-a219-465e-8a90-d0df020c0a2b)
+![image](https://github.com/user-attachments/assets/3adae888-d36f-4ab5-87f1-cf00b750330b)
+

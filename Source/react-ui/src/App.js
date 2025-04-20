@@ -2,6 +2,7 @@ import React from 'react';
 import WordCloud from './components/WordCloud';
 import SpikeMap from './components/SightingMap';
 import ChoroplethMap from './components/stateChoroplethMap';
+import EntityBarChart from './components/EntityBarChart';
 
 function App() {
 
@@ -33,8 +34,7 @@ function App() {
         </div>
 
         <div className="viz-item">
-          <h2>Visualization 5</h2>
-          <div className="viz-placeholder">[TBD]</div>
+          <EntityBarChart />
         </div>
       </div>
 

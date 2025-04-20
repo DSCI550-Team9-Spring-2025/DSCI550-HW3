@@ -92,3 +92,26 @@ body {
   text-align: center;
   color: #fff;
 }
+
+.barchart-wrapper {
+  width: 100%;
+  padding: 1rem;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.barchart-wrapper h2 {
+  text-align: center;
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #fff;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #999;
+}
+
+.barchart-wrapper svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}

@@ -79,6 +79,14 @@ const WordCloud = () => {
   return (
     <div className="wordcloud-wrapper">
       <h2>Word Cloud</h2>
+      <p>
+        Illustrates frequent words used in sighting descriptions.<br/>
+        Cycles through 50 description subset partitions.<br/><br/>
+        <strong>Insight:</strong><br/>
+        Many of the larger words indicate common settings such as at a school or cemetery, 
+        as well as insight into the type of event that may have triggered the haunting such as a fire or murder.
+        These commonalities suggest that many of these sightings were triggered by dark, tragic events in public areas.
+      </p>
       <div ref={containerRef}></div>
     </div>
   );

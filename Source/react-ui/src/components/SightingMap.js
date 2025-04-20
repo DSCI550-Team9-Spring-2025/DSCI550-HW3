@@ -91,6 +91,13 @@ const SpikeMap = () => {
   return (
     <div className="spike-map-wrapper">
       <h2>Spike Map of Sightings</h2>
+      <p>
+        Illustrates where haunted sightings occurred and their respective magnitudes.<br/><br/>
+        <strong>Insight:</strong><br/>
+        The map aligns somewhat well with US population densities, though there are some interesting hotspots that seem to disproportionately break free of this alignment.
+        A large spike in Honolulu, Hawaii may suggest numerous dark occurrences there, or maybe superstitions? 
+        Same with San Antonio, Tuscon, and El Paso - perhaps the spirits of Native Americans affected by Manifest Destiny?
+      </p>
       <div ref={ref}></div>
     </div>
   );

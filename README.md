@@ -8,5 +8,7 @@ React for D3 visualization<br>
 ![image](https://github.com/user-attachments/assets/3adae888-d36f-4ab5-87f1-cf00b750330b)
 
 ## Memex GeoParser
-https://github.com/Hibis5946/Interactive-map-of-locations-extracted-from-the-haunted-places-dataset-using-NASA-JPL-MEMEX.git
+https://github.com/Hibis5946/Interactive-map-of-locations-extracted-from-the-haunted-places-dataset-using-NASA-JPL-MEMEX
+![haunted_places_map](https://github.com/user-attachments/assets/fe40674f-6c00-479a-8d36-66c2815a7d89)
+
 

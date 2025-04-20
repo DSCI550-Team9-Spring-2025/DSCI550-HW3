@@ -1,0 +1,20 @@
+{
+  "PERSON": 4575,
+  "QUANTITY": 478,
+  "FAC": 957,
+  "LOC": 636,
+  "GPE": 2110,
+  "TIME": 3895,
+  "DATE": 6752,
+  "WORK_OF_ART": 400,
+  "CARDINAL": 5037,
+  "ORDINAL": 1865,
+  "ORG": 4168,
+  "NORP": 1292,
+  "MONEY": 59,
+  "PRODUCT": 204,
+  "EVENT": 283,
+  "PERCENT": 19,
+  "LAW": 33,
+  "LANGUAGE": 28
+}

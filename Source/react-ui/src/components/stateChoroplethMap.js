@@ -140,6 +140,14 @@ const ChoroplethMap = () => {
   return (
     <div className="choropleth-map-wrapper">
       <h2>Death Rate Choropleth Map</h2>
+      <p>
+        Interactive map showing the age-adjusted death rates per state.<br/>
+        Choose between one or all of the top 10 leading causes of death in the US.<br/><br/>
+        <strong>Insight:</strong><br/>
+        There appears to be negative correlation between sightings (see Spike Map) and suicides. 
+        Besides potentially unintentional injuries, suicide seems to be the most morbid among the leading causes - Word Cloud suggests that a significant portion of trigger events were morbid.
+        This map supports the notion that many of such suicide-triggering hauntings may have happened where suicide rates were greatest such as in Montana, Wyoming, and New Mexico.
+      </p>
       <label>
           Choose a metric (<i>per 100k capita</i>):{" "}
           <select value={selectedMetric} onChange={(e) => setSelectedMetric(e.target.value)}>

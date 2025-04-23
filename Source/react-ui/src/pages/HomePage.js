@@ -9,7 +9,7 @@ const HomePage = () => {
     { title: 'Spike Map', path: '/spike-map', description: 'Geographic distribution of sightings by city across the US.' },
     { title: 'Choropleth Map', path: '/choropleth', description: 'Explore death rates per state and possible correlation with hauntings.' },
     { title: 'Entity Bar Chart', path: '/entities', description: 'See which named entities (like dates, people, and places) appear most in haunted reports.' },
-		{ title: 'Apparatition Characteristics', path: '/', description: '...'}
+		{ title: 'Apparition Characteristics', path: '/', description: '...'}
 	];
 
   return (

@@ -141,7 +141,7 @@ const ChoroplethMap = () => {
     <div className="choropleth-map-wrapper">
       <h2>Death Rate Choropleth Map</h2>
       <p>
-        Interactive map showing the age-adjusted death rates per state.<br/>
+        Interactive map showing the age-adjusted death rates per state.
         Choose between one or all of the top 10 leading causes of death in the US.<br/><br/>
         <strong>Insight:</strong><br/>
         There appears to be negative correlation between sightings (see Spike Map) and suicides. 

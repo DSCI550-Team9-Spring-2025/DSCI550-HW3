@@ -5,6 +5,13 @@ Insights visualization of the Haunted Places in the US dataset using D3 along wi
 ## React for D3 visualization
 ![image](https://github.com/user-attachments/assets/32f11286-9a12-4c28-b272-702151dffc55)
 
+## Memex ImageSpace
+http://
+<br>
+![image](https://github.com/user-attachments/assets/c5dac7d1-ed08-4732-aa37-205248a4cbe5)
+<br>
+![image](https://github.com/user-attachments/assets/28842ae4-3620-4cf6-9912-6c4cc4d6852b)
+
 
 ## Memex GeoParser
 Interactive map of point locations extracted from the Haunted places dataset

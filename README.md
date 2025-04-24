@@ -2,9 +2,7 @@
 
 Insights visualization of the Haunted Places in the US dataset using D3 along with additonal insights from ImageSpace, the MEMEX GeoParser, and Apache Solr/Elastic Search.
 
-## Progress
-
-React for D3 visualization<br>
+## React for D3 visualization
 ![image](https://github.com/user-attachments/assets/32f11286-9a12-4c28-b272-702151dffc55)
 
 

@@ -4,3 +4,6 @@
 [submodule "Source/Image-forensics-and-similarity-analysis-of-the-haunted-places-dataset-using-NASA-JPL-ImageSpace"]
 	path = Source/Image-forensics-and-similarity-analysis-of-the-haunted-places-dataset-using-NASA-JPL-ImageSpace
 	url = https://github.com/Hibis5946/Image-forensics-and-similarity-analysis-of-the-haunted-places-dataset-using-NASA-JPL-ImageSpace.git
+[submodule "Source/Image-forensics-and-similarity-analysis"]
+	path = Source/Image-forensics-and-similarity-analysis
+	url = https://github.com/Hibis5946/Image-forensics-and-similarity-analysis-of-the-haunted-places-dataset-using-NASA-JPL-ImageSpace.git

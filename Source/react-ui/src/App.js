@@ -5,6 +5,7 @@ import WordCloud from './components/WordCloud';
 import SpikeMap from './components/SightingMap';
 import ChoroplethMap from './components/stateChoroplethMap';
 import EntityBarChart from './components/EntityBarChart';
+import ApparitionChart from './components/apparitionTypes';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/spike-map" element={<SpikeMap />} />
           <Route path="/choropleth" element={<ChoroplethMap />} />
           <Route path="/entities" element={<EntityBarChart />} />
+          <Route path="/apparition" element={<ApparitionChart />} />
         </Routes>
       </div>
     </Router>

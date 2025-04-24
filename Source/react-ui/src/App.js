@@ -26,7 +26,7 @@ function App() {
           <Route path="/spike-map" element={<SpikeMap />} />
           <Route path="/choropleth" element={<ChoroplethMap />} />
           <Route path="/entities" element={<EntityBarChart />} />
-          <Route path="/apparition" element={<ApparitionChart />} />
+          <Route path="/apparitions" element={<ApparitionChart />} />
         </Routes>
       </div>
     </Router>

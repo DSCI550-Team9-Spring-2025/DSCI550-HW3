@@ -92,9 +92,6 @@ const ApparitionChart = () => {
     svg.selectAll("*").remove();
 
     const margin = { top: 50, right: 30, bottom: 100, left: 60 };
-    const groupCount = chartData.length;
-    const groupBarWidth = eventTypes.length * 20; // estimate 20px per bar
-    const groupSpacing = 5; // spacing between groups
     const width = 975 - margin.left - margin.right;
     const height = 630 - margin.top - margin.bottom;
 
@@ -116,7 +113,7 @@ const ApparitionChart = () => {
       )])
       .nice()
       .range([height, 0]);
-      
+
     // Add chart axes
     chart.append("g")
       .attr("transform", `translate(0,${height})`)
@@ -151,6 +148,20 @@ const ApparitionChart = () => {
       .attr("height", d => y(d[0]) - y(d[1]))
       .attr("width", x0.bandwidth());
     
+
+    // Add number labels to top of bars
+    chart.selectAll("text.bar-label")
+      .data(chartData)
+      .enter()
+      .append("text")
+      .attr("class", "bar-label")
+      .attr("x", d => x0(d.type) + x0.bandwidth() / 2)
+      .attr("y", d => y(d.total) - 5)
+      .attr("text-anchor", "middle")
+      .style("fill", "white")
+      .style("font-size", "10px")
+      .text(d => d.total);
+
     // Add legend information
     const legend = svg.append("g").attr("transform", `translate(${margin.left},${height + margin.top + 20})`);
     eventTypes.forEach((type, i) => {
@@ -167,12 +178,20 @@ const ApparitionChart = () => {
   return (
     <div className="apparition-features-wrapper">
       <h2>Apparition Characteristics</h2>
+      <p>
+        Keyword match and extracted apparition types from the haunted places descriptions.<br/><br/>
+        <strong>Insight:</strong><br/>
+        "Ghost" overwhelmingly dominate apparition landscape being 2.7x more frequently occuring the next largest apparition, "spirit".  likely because ghostly figures are deeply embedded in cultural beliefs about being haunted by those who have passed with unfinished business from Earth.
+        The vast majority of apparitions are associated with "Supernatural" elements followed by "murder" related events. The origins of these hauntings can be traced back to the idea that unnatural disturbances and deaths can serve as the catalyst for paranormal activity.  
+        When looking at the availability of audio and visual evidence, there is more prevalence of audio evidence (whispers, footsteps, creaks) likely because it is far easier to record sounds in dark or fast-moving situations. Capturing visual proof (photos, footage, videos) can be especially tricky with elusive apparitions and creatures compounded with the technological challenges and panic that may ensue with these near encounters.
+        Apparitions spike significantly during Dusk - nearly 6x more than in Morning. As daylight fades, reduced visibility and heightened environmental sensitivity may amplify the perception of supernatural activity, making Dusk a prime window for encounters with apparitions.
+      </p>
       <div
         className="filters"
-        style={{ marginBottom: "1rem", display: "flex", gap: "1rem", flexWrap: "wrap" }}
+        style={{ marginBottom: "1rem", textAlign: "center" }}
       >
         <label>
-          Time of Day:
+          Time of Day: 
           <select
             onChange={(e) => setFilterSettings(prev => ({ ...prev, time_of_day: e.target.value }))}
             value={filterSettings.time_of_day}
@@ -259,7 +278,7 @@ const ApparitionChart = () => {
           Include Unknowns
         </label>
       </div>
-      <div style={{ overflowX: 'auto' }}>
+      <div style={{ marginBottom: "1rem", textAlign: "center" }}>
         <svg ref={ref} width={chartWidth} height={chartHeight}></svg>
       </div>
     </div>

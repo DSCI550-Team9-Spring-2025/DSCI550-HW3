@@ -1,0 +1,45 @@
+.home-wrapper {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .card-grid {
+    display: flex;
+    gap: 1.5rem;
+    padding: 2rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .card-grid h2 {
+    color: #6BADCE;
+  }
+  
+  .card-grid::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .card-grid::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 4px;
+  }  
+  
+  .viz-card {
+    width: 250px;
+    flex-shrink: 0;
+    background-color: #2c2c2c;
+    padding: 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #444;
+    transition: transform 0.2s ease;
+    scroll-snap-align: start;
+  }
+  
+  .viz-card:hover {
+    transform: scale(1.03);
+    border-color: #888;
+  }
+  

@@ -80,7 +80,7 @@ const WordCloud = () => {
     <div className="wordcloud-wrapper">
       <h2>Word Cloud</h2>
       <p>
-        Illustrates frequent words used in sighting descriptions.<br/>
+        Illustrates frequent words used in sighting descriptions.
         Cycles through 50 description subset partitions.<br/><br/>
         <strong>Insight:</strong><br/>
         Many of the larger words indicate common settings such as at a school or cemetery, 

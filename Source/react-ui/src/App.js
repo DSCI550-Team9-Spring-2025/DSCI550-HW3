@@ -1,44 +1,33 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import HomePage from './pages/HomePage';
 import WordCloud from './components/WordCloud';
 import SpikeMap from './components/SightingMap';
 import ChoroplethMap from './components/stateChoroplethMap';
 import EntityBarChart from './components/EntityBarChart';
 
 function App() {
-
-
   return (
-    <div className="App">
-      <div className="title-wrapper">
-        <h1>Haunted Places in the US</h1>
-        <h2>Data Insights with D3.js</h2>
-        <h4><a href="https://github.com/DSCI550-Team9-Spring-2025/DSCI550-HW3" target="_blank">GitHub</a></h4>
+    <Router>
+      <div className="App">
+        <nav className="nav-bar">
+          <ul className="nav-list">
+            <li><Link to="/">Home</Link></li>
+            <li><a href="https://github.com/DSCI550-Team9-Spring-2025/DSCI550-HW3" target="_blank">GitHub</a></li>
+            <li><a href="https://d3js.org/" target="_blank">D3</a></li>
+            <li><a href="https://www.kaggle.com/datasets/mexwell/haunted-places-in-the-us" target="_blank">Dataset</a></li>
+          </ul>
+        </nav>
+
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/wordcloud" element={<WordCloud />} />
+          <Route path="/spike-map" element={<SpikeMap />} />
+          <Route path="/choropleth" element={<ChoroplethMap />} />
+          <Route path="/entities" element={<EntityBarChart />} />
+        </Routes>
       </div>
-
-      <div className="viz-grid">
-        <div className="viz-item">
-          <WordCloud />
-        </div>
-
-        <div className="viz-item">
-          <ChoroplethMap />
-        </div>
-
-        <div className="viz-item">
-          <SpikeMap />
-        </div>
-
-        <div className="viz-item">
-          <h2>Visualization 4</h2>
-          <div className="viz-placeholder">[TBD]</div>
-        </div>
-
-        <div className="viz-item">
-          <EntityBarChart />
-        </div>
-      </div>
-
-    </div>
+    </Router>
   );
 }
 

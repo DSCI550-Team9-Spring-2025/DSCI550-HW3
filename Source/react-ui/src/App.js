@@ -15,7 +15,7 @@ function App() {
             <li><Link to="/">Home</Link></li>
             <li><a href="https://github.com/DSCI550-Team9-Spring-2025/DSCI550-HW3" target="_blank">GitHub</a></li>
             <li><a href="https://d3js.org/" target="_blank">D3</a></li>
-            <li><a href="https://www.kaggle.com/datasets/mexwell/haunted-places-in-the-us" target="_blank">Dataset</a></li>
+            <li><a href="https://www.kaggle.com/datasets/sujaykapadnis/haunted-places" target="_blank">Dataset</a></li>
           </ul>
         </nav>
 

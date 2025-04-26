@@ -9,7 +9,7 @@ const ChoroplethMap = () => {
   const [selectedMetric, setSelectedMetric] = useState("death_rate_All causes"); // stores currently selected metric
   
 
-  // Load aggregate state map (suicide rates)
+  // Load aggregate state statistics JSON
   useEffect(() => {
     fetch(process.env.PUBLIC_URL + "/ChoroplethMap/agg_stats_data.json")
       .then(res => res.json())
@@ -47,18 +47,23 @@ const ChoroplethMap = () => {
           .attr("d", path);
         
 
+        const isGradMetric = ["Undergrad_Grad_Rate","HS_Grad_Rate", "STEM_Grad_Percentage"].includes(selectedMetric);
+        const isCrimeMetric = ["Murder per capita",	"Violent Crime per capita",	"Property Crime per capita"].includes(selectedMetric);
 
-        // Inputs the death rates per capita
+        // Inputs the selectedMetrics
         const dataMap = new Map(
-        aggData.map(d => [d.state.trim().toLowerCase(), +d[selectedMetric]])
+          aggData.map(d => {
+            let value = +String(d[selectedMetric]).replace("%", "").trim();
+            return [d.state.trim().toLowerCase(),value];
+          })
         );
 
-        const metricValues = aggData.map(d => +d[selectedMetric]).filter(v => !isNaN(v));
-        console.log("metricValues", metricValues); // Add this line for debugging
+        const metricValues = aggData.map(d => +String(d[selectedMetric]).replace("%", "").trim()).filter(v => !isNaN(v));
+        //console.log("metricValues", metricValues); // debugging
+        
         const color = d3.scaleSequential()
         .domain(d3.extent(metricValues)) // [min, max] range based on data
-        .interpolator(d3.interpolateReds);
-        
+        .interpolator(isGradMetric ? d3.interpolateBlues : isCrimeMetric ? d3.interpolateOranges : d3.interpolateReds);        
         // Legend that dynamically adapts to the metricValue user selects
         const legend = legendColor()
           .labelFormat(d3.format(".0f"))
@@ -87,7 +92,9 @@ const ChoroplethMap = () => {
           .attr("text-anchor", "middle")
           .attr("x", 15) 
           .style("fill", "white")
-          .style("font-size", "14px");
+          .style("font-size", d => { 
+            return isCrimeMetric ? "11px" : "14px";
+          });
         
         const states = topojson.feature(us, us.objects.states).features;
 
@@ -108,7 +115,15 @@ const ChoroplethMap = () => {
           .text(d => {
             const stateName = d.properties.name.trim().toLowerCase();
             const rate = dataMap.get(stateName);
-            return `${d.properties.name}\n${selectedMetric.replace(/_/g, " ").replace(/\b\w/g, l => l.toUpperCase())}: ${rate ?? "No data"}`;
+            const formattedRate = rate != null
+              ? isCrimeMetric
+                ? `${d3.format(".3f")(rate)}`
+                : isGradMetric
+                  ? `${d3.format(".1f")(rate)}%` 
+                  : d3.format(".1f")(rate) 
+              : "No data";
+            return `${d.properties.name}\n${selectedMetric.replace(/_/g, " ").replace(/\b\w/g, l => l.toUpperCase())}: ${formattedRate}`;
+            //return `${d.properties.name}\n${selectedMetric.replace(/_/g, " ").replace(/\b\w/g, l => l.toUpperCase())}: ${rate ?? "No data"}`;
           });
 
         // State value labels
@@ -122,7 +137,11 @@ const ChoroplethMap = () => {
           .text(d => {
             const stateName = d.properties.name.trim().toLowerCase();
             const rate = dataMap.get(stateName);
-            return rate != null ? d3.format(".1f")(rate) : "";
+            if (rate != null) {
+              return isGradMetric ? `${d3.format(".1f")(rate)}%` : d3.format(".1f")(rate);
+            }
+            return "";
+            //return rate != null ? d3.format(".1f")(rate) : "";
           })
           .attr("fill", "black")
           .attr("font-size", "14px")
@@ -139,7 +158,7 @@ const ChoroplethMap = () => {
 
   return (
     <div className="choropleth-map-wrapper">
-      <h2>Death Rate Choropleth Map</h2>
+      <h2>State Aggregated Choropleth Map</h2>
       <p>
         Interactive map showing the age-adjusted death rates per state.
         Choose between one or all of the top 10 leading causes of death in the US.<br/><br/>
@@ -149,18 +168,24 @@ const ChoroplethMap = () => {
         This map supports the notion that many of such suicide-triggering hauntings may have happened where suicide rates were greatest such as in Montana, Wyoming, and New Mexico.
       </p>
       <label>
-          Choose a metric (<i>per 100k capita</i>):{" "}
+          Choose a metric:{" "}
           <select value={selectedMetric} onChange={(e) => setSelectedMetric(e.target.value)}>
-            <option value="death_rate_All causes">All Causes Death Rate</option>
-            <option value="death_rate_Alzheimer's disease">Alzheimer's Death Rate</option>
-            <option value="death_rate_Cancer">Cancer Death Rate</option>
-            <option value="death_rate_CLRD">CLRD Death Rate</option>
-            <option value="death_rate_Diabetes">Diabetes Death Rate</option>
-            <option value="death_rate_Heart disease">Heart Disease Death Rate</option>
-            <option value="death_rate_Influenza and pneumonia">Influenza and Pneumonia Death Rate</option>
-            <option value="death_rate_Kidney disease">Kidney Disease Death Rate</option>
-            <option value="death_rate_Suicide">Suicide Death Rate</option>
-            <option value="death_rate_Unintentional injuries">Unintentional Injuries Death Rate</option>
+          <option value="death_rate_All causes">All Causes Death Rate (per 100k capita, age-adjusted)</option>
+<option value="death_rate_Alzheimer's disease">Alzheimer's Death Rate (per 100k capita, age-adjusted)</option>
+<option value="death_rate_Cancer">Cancer Death Rate (per 100k capita, age-adjusted)</option>
+<option value="death_rate_CLRD">CLRD Death Rate (per 100k capita, age-adjusted)</option>
+<option value="death_rate_Diabetes">Diabetes Death Rate (per 100k capita, age-adjusted)</option>
+<option value="death_rate_Heart disease">Heart Disease Death Rate (per 100k capita, age-adjusted)</option>
+<option value="death_rate_Influenza and pneumonia">Influenza and Pneumonia Death Rate (per 100k capita, age-adjusted)</option>
+<option value="death_rate_Kidney disease">Kidney Disease Death Rate (per 100k capita, age-adjusted)</option>
+<option value="death_rate_Suicide">Suicide Death Rate (per 100k capita, age-adjusted)</option>
+<option value="death_rate_Unintentional injuries">Unintentional Injuries Death Rate (per 100k capita, age-adjusted)</option>
+<option value="HS_Grad_Rate">Highschool Graduation Rate %</option>
+<option value="Undergrad_Grad_Rate">Undergrad Graduation Rate %</option>
+<option value="STEM_Grad_Percentage">STEM Graduation Rate %</option>
+<option value="Murder per capita">Murder Crime Rate (per 100k capita)</option>
+<option value="Violent Crime per capita">Violent Crime Rate (per 100k capita)</option>
+<option value="Property Crime per capita">Property Crime Rate (per 100k capita)</option>
           </select>
         </label>
       <div ref={ref}></div>

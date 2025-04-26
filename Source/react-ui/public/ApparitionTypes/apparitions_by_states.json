@@ -7,18 +7,18 @@
     "haunted_place_count":224,
     "unique_apparition_types":"apparition, entity, figure, ghost, imp, mist, orb, phantom, presence, shadow, spirit, witch",
     "apparition_type_counts":{
-      "figure":16,
-      "shadow":8,
+      "witch":1,
       "orb":5,
       "entity":1,
+      "apparition":12,
+      "phantom":1,
       "mist":1,
       "imp":1,
-      "apparition":12,
-      "witch":1,
-      "presence":10,
       "ghost":51,
+      "presence":10,
       "spirit":13,
-      "phantom":1
+      "figure":16,
+      "shadow":8
     },
     "apparition:places":3.0
   },
@@ -30,11 +30,11 @@
     "haunted_place_count":32,
     "unique_apparition_types":"apparition, figure, ghost, poltergeist, spirit",
     "apparition_type_counts":{
-      "figure":1,
-      "poltergeist":1,
       "apparition":4,
+      "poltergeist":1,
       "ghost":7,
-      "spirit":4
+      "spirit":4,
+      "figure":1
     },
     "apparition:places":1.0
   },
@@ -46,18 +46,18 @@
     "haunted_place_count":156,
     "unique_apparition_types":"apparition, demon, figure, ghost, mist, orb, phantom, poltergeist, presence, shadow, specter, spirit",
     "apparition_type_counts":{
-      "figure":11,
       "specter":2,
-      "shadow":11,
-      "mist":1,
       "orb":2,
-      "poltergeist":1,
-      "apparition":16,
       "demon":1,
-      "presence":10,
+      "apparition":16,
+      "phantom":1,
+      "mist":1,
+      "poltergeist":1,
       "ghost":30,
+      "presence":10,
       "spirit":15,
-      "phantom":1
+      "figure":11,
+      "shadow":11
     },
     "apparition:places":0.0
   },
@@ -69,18 +69,18 @@
     "haunted_place_count":119,
     "unique_apparition_types":"apparition, figure, ghost, mist, orb, phantom, poltergeist, presence, shadow, specter, spirit, witch",
     "apparition_type_counts":{
-      "figure":3,
-      "specter":1,
-      "orb":5,
-      "shadow":6,
-      "poltergeist":2,
-      "mist":1,
-      "apparition":11,
       "witch":2,
+      "specter":1,
+      "apparition":11,
+      "phantom":2,
+      "mist":1,
+      "poltergeist":2,
       "presence":3,
       "ghost":31,
+      "orb":5,
       "spirit":2,
-      "phantom":2
+      "figure":3,
+      "shadow":6
     },
     "apparition:places":1.0
   },
@@ -92,20 +92,20 @@
     "haunted_place_count":1071,
     "unique_apparition_types":"apparition, demon, entity, figure, ghost, mist, orb, phantom, poltergeist, presence, shadow, specter, spirit, witch",
     "apparition_type_counts":{
-      "figure":75,
+      "witch":9,
       "specter":4,
-      "shadow":42,
       "orb":20,
-      "poltergeist":7,
-      "mist":11,
+      "demon":1,
       "entity":12,
       "apparition":98,
-      "demon":1,
-      "witch":9,
-      "presence":54,
+      "phantom":4,
+      "mist":11,
+      "poltergeist":7,
       "ghost":257,
+      "presence":54,
       "spirit":92,
-      "phantom":4
+      "figure":75,
+      "shadow":42
     },
     "apparition:places":0.0
   },
@@ -117,19 +117,19 @@
     "haunted_place_count":166,
     "unique_apparition_types":"apparition, entity, figure, ghost, mist, orb, phantom, poltergeist, presence, shadow, specter, spirit, witch",
     "apparition_type_counts":{
-      "figure":6,
-      "specter":1,
-      "orb":8,
-      "entity":2,
       "shadow":5,
-      "poltergeist":3,
-      "mist":5,
-      "apparition":15,
       "witch":2,
-      "presence":9,
+      "specter":1,
+      "entity":2,
+      "apparition":15,
+      "phantom":1,
+      "mist":5,
+      "poltergeist":3,
       "ghost":38,
+      "orb":8,
       "spirit":17,
-      "phantom":1
+      "figure":6,
+      "presence":9
     },
     "apparition:places":1.0
   },
@@ -141,19 +141,19 @@
     "haunted_place_count":185,
     "unique_apparition_types":"apparition, demon, entity, figure, ghost, mist, orb, phantom, presence, shadow, specter, spirit, witch",
     "apparition_type_counts":{
-      "figure":18,
+      "witch":5,
       "specter":1,
-      "orb":25,
-      "shadow":4,
-      "mist":5,
+      "demon":2,
       "entity":2,
       "apparition":12,
-      "witch":5,
-      "demon":2,
+      "phantom":4,
+      "mist":5,
       "presence":8,
       "ghost":40,
+      "orb":25,
       "spirit":12,
-      "phantom":4
+      "figure":18,
+      "shadow":4
     },
     "apparition:places":1.0
   },
@@ -165,13 +165,13 @@
     "haunted_place_count":37,
     "unique_apparition_types":"figure, ghost, orb, presence, shadow, specter, spirit",
     "apparition_type_counts":{
-      "figure":4,
-      "specter":1,
-      "orb":2,
       "shadow":1,
-      "presence":3,
+      "specter":1,
       "ghost":9,
-      "spirit":4
+      "orb":2,
+      "spirit":4,
+      "figure":4,
+      "presence":3
     },
     "apparition:places":1.0
   },
@@ -183,18 +183,18 @@
     "haunted_place_count":328,
     "unique_apparition_types":"apparition, entity, figure, ghost, mist, orb, phantom, poltergeist, presence, shadow, spirit, witch",
     "apparition_type_counts":{
-      "figure":26,
-      "shadow":16,
-      "orb":18,
-      "mist":3,
-      "entity":2,
-      "poltergeist":3,
-      "apparition":25,
       "witch":2,
+      "entity":2,
+      "apparition":25,
+      "phantom":3,
+      "mist":3,
       "presence":16,
+      "poltergeist":3,
       "ghost":69,
+      "orb":18,
       "spirit":32,
-      "phantom":3
+      "figure":26,
+      "shadow":16
     },
     "apparition:places":0.5
   },
@@ -206,22 +206,22 @@
     "haunted_place_count":289,
     "unique_apparition_types":"apparition, demon, entity, figure, ghost, mist, orb, phantom, poltergeist, presence, shadow, specter, spirit, vampire, werewolf, witch",
     "apparition_type_counts":{
-      "figure":26,
-      "specter":3,
-      "orb":13,
       "shadow":9,
-      "vampire":1,
-      "poltergeist":2,
-      "mist":4,
-      "apparition":21,
       "witch":6,
+      "specter":3,
       "demon":1,
       "entity":1,
-      "presence":10,
+      "apparition":21,
+      "phantom":3,
+      "mist":4,
+      "poltergeist":2,
+      "vampire":1,
       "werewolf":1,
       "ghost":46,
+      "orb":13,
       "spirit":26,
-      "phantom":3
+      "figure":26,
+      "presence":10
     },
     "apparition:places":0.0
   },
@@ -233,12 +233,12 @@
     "haunted_place_count":96,
     "unique_apparition_types":"apparition, figure, ghost, shadow, specter, spirit",
     "apparition_type_counts":{
-      "figure":9,
       "specter":1,
-      "shadow":4,
       "apparition":2,
       "ghost":23,
-      "spirit":8
+      "spirit":8,
+      "figure":9,
+      "shadow":4
     },
     "apparition:places":1.0
   },
@@ -250,15 +250,15 @@
     "haunted_place_count":66,
     "unique_apparition_types":"apparition, figure, ghost, phantom, presence, shadow, specter, spirit, werewolf",
     "apparition_type_counts":{
-      "figure":6,
       "specter":1,
-      "shadow":5,
       "apparition":10,
-      "presence":7,
+      "phantom":1,
       "werewolf":1,
       "ghost":11,
+      "presence":7,
       "spirit":7,
-      "phantom":1
+      "figure":6,
+      "shadow":5
     },
     "apparition:places":0.0
   },
@@ -270,21 +270,21 @@
     "haunted_place_count":395,
     "unique_apparition_types":"apparition, demon, entity, figure, ghost, mist, orb, phantom, poltergeist, presence, shadow, specter, spirit, werewolf, witch",
     "apparition_type_counts":{
+      "shadow":20,
+      "witch":6,
       "figure":24,
       "specter":3,
       "orb":26,
-      "poltergeist":1,
-      "mist":5,
-      "shadow":20,
+      "demon":2,
       "entity":1,
       "apparition":29,
-      "witch":6,
-      "demon":2,
-      "presence":14,
       "werewolf":1,
+      "poltergeist":1,
       "ghost":78,
+      "presence":14,
       "spirit":35,
-      "phantom":4
+      "phantom":4,
+      "mist":5
     },
     "apparition:places":1.0
   },
@@ -296,19 +296,19 @@
     "haunted_place_count":353,
     "unique_apparition_types":"apparition, demon, figure, ghost, mist, orb, phantom, presence, shadow, spirit, troll, werewolf, witch",
     "apparition_type_counts":{
-      "troll":1,
-      "figure":22,
-      "orb":17,
-      "shadow":12,
-      "mist":4,
-      "apparition":17,
       "witch":4,
       "demon":1,
-      "presence":2,
+      "apparition":17,
+      "troll":1,
+      "mist":4,
+      "phantom":2,
       "werewolf":1,
+      "presence":2,
       "ghost":52,
+      "orb":17,
       "spirit":18,
-      "phantom":2
+      "figure":22,
+      "shadow":12
     },
     "apparition:places":0.0
   },
@@ -320,16 +320,16 @@
     "haunted_place_count":169,
     "unique_apparition_types":"apparition, entity, figure, ghost, orb, presence, shadow, specter, spirit, witch",
     "apparition_type_counts":{
-      "figure":17,
-      "specter":1,
-      "orb":7,
       "shadow":4,
+      "witch":1,
+      "specter":1,
       "entity":3,
       "apparition":8,
-      "witch":1,
-      "presence":3,
       "ghost":23,
-      "spirit":13
+      "orb":7,
+      "spirit":13,
+      "figure":17,
+      "presence":3
     },
     "apparition:places":1.0
   },
@@ -341,19 +341,19 @@
     "haunted_place_count":122,
     "unique_apparition_types":"apparition, demon, entity, figure, ghost, mist, orb, phantom, poltergeist, presence, shadow, spirit, witch",
     "apparition_type_counts":{
-      "figure":7,
-      "mist":2,
-      "orb":3,
-      "shadow":5,
-      "entity":3,
-      "poltergeist":1,
-      "apparition":8,
       "witch":2,
       "demon":2,
+      "entity":3,
+      "apparition":8,
+      "phantom":1,
+      "mist":2,
       "presence":2,
+      "poltergeist":1,
       "ghost":22,
+      "orb":3,
       "spirit":10,
-      "phantom":1
+      "figure":7,
+      "shadow":5
     },
     "apparition:places":1.0
   },
@@ -365,20 +365,20 @@
     "haunted_place_count":370,
     "unique_apparition_types":"apparition, demon, figure, ghost, mist, orb, phantom, poltergeist, presence, shadow, specter, spirit, werewolf, witch",
     "apparition_type_counts":{
-      "figure":27,
-      "specter":1,
-      "shadow":14,
-      "orb":5,
-      "poltergeist":1,
-      "mist":2,
-      "apparition":20,
       "witch":6,
+      "specter":1,
       "demon":2,
+      "apparition":20,
+      "phantom":2,
+      "mist":2,
       "presence":9,
+      "poltergeist":1,
       "werewolf":1,
       "ghost":45,
+      "orb":5,
       "spirit":20,
-      "phantom":2
+      "figure":27,
+      "shadow":14
     },
     "apparition:places":3.0
   },
@@ -390,15 +390,15 @@
     "haunted_place_count":99,
     "unique_apparition_types":"apparition, figure, ghost, mist, orb, presence, shadow, spirit, vampire",
     "apparition_type_counts":{
-      "figure":5,
-      "shadow":4,
-      "orb":3,
-      "mist":3,
-      "vampire":1,
       "apparition":8,
+      "mist":3,
       "presence":4,
+      "vampire":1,
       "ghost":33,
-      "spirit":8
+      "orb":3,
+      "spirit":8,
+      "figure":5,
+      "shadow":4
     },
     "apparition:places":0.3333333333
   },
@@ -410,14 +410,14 @@
     "haunted_place_count":57,
     "unique_apparition_types":"apparition, figure, ghost, orb, poltergeist, shadow, spirit, witch",
     "apparition_type_counts":{
-      "figure":5,
-      "orb":3,
-      "poltergeist":2,
-      "shadow":2,
-      "apparition":1,
       "witch":3,
+      "apparition":1,
+      "poltergeist":2,
       "ghost":11,
-      "spirit":6
+      "orb":3,
+      "spirit":6,
+      "figure":5,
+      "shadow":2
     },
     "apparition:places":0.0
   },
@@ -429,16 +429,16 @@
     "haunted_place_count":170,
     "unique_apparition_types":"apparition, demon, figure, ghost, orb, phantom, presence, shadow, spirit, witch",
     "apparition_type_counts":{
-      "figure":10,
-      "shadow":5,
-      "orb":2,
-      "apparition":2,
       "witch":4,
+      "orb":2,
       "demon":1,
-      "presence":7,
+      "apparition":2,
+      "phantom":1,
       "ghost":35,
+      "presence":7,
       "spirit":8,
-      "phantom":1
+      "figure":10,
+      "shadow":5
     },
     "apparition:places":0.6666666667
   },
@@ -450,19 +450,19 @@
     "haunted_place_count":344,
     "unique_apparition_types":"apparition, demon, figure, ghost, mist, orb, phantom, poltergeist, presence, shadow, specter, spirit, witch",
     "apparition_type_counts":{
-      "figure":21,
-      "specter":2,
-      "shadow":15,
-      "orb":6,
-      "poltergeist":5,
-      "mist":5,
-      "apparition":21,
-      "demon":1,
       "witch":5,
+      "specter":2,
+      "demon":1,
+      "apparition":21,
+      "phantom":1,
+      "mist":5,
+      "poltergeist":5,
       "presence":14,
       "ghost":81,
+      "orb":6,
       "spirit":24,
-      "phantom":1
+      "figure":21,
+      "shadow":15
     },
     "apparition:places":1.0
   },
@@ -474,22 +474,22 @@
     "haunted_place_count":529,
     "unique_apparition_types":"apparition, demon, entity, figure, ghost, mist, orb, phantom, poltergeist, presence, shadow, specter, spirit, warlock, werewolf, witch",
     "apparition_type_counts":{
-      "figure":59,
-      "specter":2,
-      "orb":30,
-      "entity":2,
       "shadow":20,
-      "mist":7,
-      "warlock":2,
-      "apparition":31,
       "witch":5,
+      "specter":2,
       "demon":2,
-      "poltergeist":1,
-      "presence":24,
+      "entity":2,
+      "apparition":31,
+      "phantom":5,
+      "mist":7,
       "werewolf":1,
+      "poltergeist":1,
       "ghost":93,
+      "warlock":2,
+      "orb":30,
       "spirit":30,
-      "phantom":5
+      "figure":59,
+      "presence":24
     },
     "apparition:places":1.0
   },
@@ -501,14 +501,14 @@
     "haunted_place_count":162,
     "unique_apparition_types":"apparition, figure, ghost, orb, presence, shadow, spirit, witch",
     "apparition_type_counts":{
-      "figure":18,
-      "shadow":2,
+      "witch":1,
       "orb":1,
       "apparition":11,
-      "witch":1,
-      "presence":2,
       "ghost":33,
-      "spirit":16
+      "presence":2,
+      "spirit":16,
+      "figure":18,
+      "shadow":2
     },
     "apparition:places":0.0
   },
@@ -520,11 +520,11 @@
     "haunted_place_count":63,
     "unique_apparition_types":"figure, ghost, presence, specter, spirit",
     "apparition_type_counts":{
-      "figure":4,
       "specter":1,
-      "presence":3,
       "ghost":16,
-      "spirit":7
+      "presence":3,
+      "spirit":7,
+      "figure":4
     },
     "apparition:places":2.0
   },
@@ -536,19 +536,19 @@
     "haunted_place_count":314,
     "unique_apparition_types":"apparition, demon, entity, figure, ghost, mist, orb, poltergeist, presence, shadow, specter, spirit, witch",
     "apparition_type_counts":{
-      "figure":21,
+      "witch":1,
       "specter":1,
-      "mist":4,
-      "orb":9,
-      "shadow":12,
-      "poltergeist":1,
+      "demon":1,
       "entity":1,
       "apparition":26,
-      "witch":1,
-      "demon":1,
+      "mist":4,
       "presence":8,
+      "poltergeist":1,
       "ghost":74,
-      "spirit":15
+      "orb":9,
+      "spirit":15,
+      "figure":21,
+      "shadow":12
     },
     "apparition:places":2.0
   },
@@ -560,14 +560,14 @@
     "haunted_place_count":42,
     "unique_apparition_types":"figure, ghost, mist, orb, poltergeist, presence, shadow, spirit",
     "apparition_type_counts":{
-      "figure":4,
-      "shadow":3,
       "orb":1,
-      "poltergeist":1,
       "mist":1,
-      "presence":1,
+      "poltergeist":1,
       "ghost":10,
-      "spirit":6
+      "presence":1,
+      "spirit":6,
+      "figure":4,
+      "shadow":3
     },
     "apparition:places":0.0
   },
@@ -579,17 +579,17 @@
     "haunted_place_count":111,
     "unique_apparition_types":"apparition, entity, figure, ghost, mist, phantom, presence, shadow, specter, spirit, witch",
     "apparition_type_counts":{
-      "figure":13,
-      "specter":1,
-      "mist":2,
-      "entity":1,
-      "shadow":2,
-      "apparition":5,
       "witch":2,
+      "specter":1,
+      "entity":1,
+      "apparition":5,
+      "phantom":2,
       "presence":2,
       "ghost":35,
+      "shadow":2,
       "spirit":8,
-      "phantom":2
+      "figure":13,
+      "mist":2
     },
     "apparition:places":4.0
   },
@@ -601,12 +601,12 @@
     "haunted_place_count":56,
     "unique_apparition_types":"apparition, figure, ghost, presence, shadow, spirit",
     "apparition_type_counts":{
-      "figure":7,
-      "shadow":2,
       "apparition":5,
-      "presence":2,
       "ghost":11,
-      "spirit":3
+      "presence":2,
+      "spirit":3,
+      "figure":7,
+      "shadow":2
     },
     "apparition:places":1.0
   },
@@ -618,18 +618,18 @@
     "haunted_place_count":72,
     "unique_apparition_types":"apparition, demon, figure, ghost, mist, orb, phantom, presence, shadow, specter, spirit, witch",
     "apparition_type_counts":{
-      "figure":4,
-      "specter":2,
-      "shadow":4,
-      "orb":1,
-      "mist":3,
-      "apparition":6,
-      "demon":1,
       "witch":1,
+      "specter":2,
+      "demon":1,
+      "apparition":6,
+      "phantom":1,
+      "mist":3,
       "presence":5,
       "ghost":15,
+      "orb":1,
       "spirit":8,
-      "phantom":1
+      "figure":4,
+      "shadow":4
     },
     "apparition:places":1.0
   },
@@ -641,16 +641,16 @@
     "haunted_place_count":194,
     "unique_apparition_types":"apparition, entity, figure, ghost, mist, orb, phantom, presence, shadow, spirit",
     "apparition_type_counts":{
-      "figure":13,
-      "mist":8,
       "shadow":5,
       "orb":9,
       "entity":1,
       "apparition":9,
-      "presence":7,
+      "phantom":1,
       "ghost":43,
+      "presence":7,
       "spirit":18,
-      "phantom":1
+      "figure":13,
+      "mist":8
     },
     "apparition:places":0.5
   },
@@ -662,15 +662,15 @@
     "haunted_place_count":78,
     "unique_apparition_types":"apparition, entity, figure, ghost, imp, phantom, presence, shadow, spirit",
     "apparition_type_counts":{
-      "figure":7,
-      "shadow":6,
       "entity":2,
-      "imp":1,
       "apparition":9,
-      "presence":2,
+      "imp":1,
+      "phantom":1,
       "ghost":19,
+      "presence":2,
       "spirit":4,
-      "phantom":1
+      "figure":7,
+      "shadow":6
     },
     "apparition:places":0.0
   },
@@ -682,19 +682,19 @@
     "haunted_place_count":459,
     "unique_apparition_types":"apparition, entity, figure, ghost, mist, orb, phantom, poltergeist, presence, shadow, specter, spirit, witch",
     "apparition_type_counts":{
-      "figure":27,
+      "witch":4,
       "specter":5,
       "orb":18,
-      "poltergeist":2,
-      "shadow":17,
-      "mist":4,
       "entity":1,
       "apparition":40,
-      "witch":4,
-      "presence":20,
+      "phantom":2,
+      "mist":4,
+      "poltergeist":2,
       "ghost":91,
+      "presence":20,
       "spirit":49,
-      "phantom":2
+      "figure":27,
+      "shadow":17
     },
     "apparition:places":1.0
   },
@@ -706,18 +706,18 @@
     "haunted_place_count":211,
     "unique_apparition_types":"apparition, demon, figure, ghost, mist, orb, phantom, presence, shadow, specter, spirit, witch",
     "apparition_type_counts":{
-      "figure":14,
-      "specter":1,
-      "shadow":12,
-      "mist":1,
-      "orb":2,
-      "apparition":13,
-      "demon":1,
       "witch":1,
-      "presence":9,
+      "specter":1,
+      "orb":2,
+      "demon":1,
+      "apparition":13,
+      "phantom":2,
+      "mist":1,
       "ghost":48,
+      "presence":9,
       "spirit":16,
-      "phantom":2
+      "figure":14,
+      "shadow":12
     },
     "apparition:places":0.0
   },
@@ -729,14 +729,14 @@
     "haunted_place_count":58,
     "unique_apparition_types":"apparition, entity, figure, ghost, presence, shadow, spirit, witch",
     "apparition_type_counts":{
-      "figure":6,
-      "shadow":2,
+      "witch":1,
       "entity":1,
       "apparition":4,
-      "witch":1,
-      "presence":3,
       "ghost":9,
-      "spirit":2
+      "presence":3,
+      "spirit":2,
+      "figure":6,
+      "shadow":2
     },
     "apparition:places":1.0
   },
@@ -748,20 +748,20 @@
     "haunted_place_count":477,
     "unique_apparition_types":"apparition, demon, entity, figure, ghost, mist, orb, phantom, poltergeist, presence, shadow, specter, spirit, witch",
     "apparition_type_counts":{
-      "figure":43,
-      "specter":4,
-      "mist":3,
-      "orb":10,
       "shadow":19,
-      "poltergeist":1,
+      "witch":9,
+      "specter":4,
+      "demon":3,
       "entity":2,
       "apparition":28,
-      "witch":9,
-      "demon":3,
+      "phantom":3,
       "presence":10,
+      "poltergeist":1,
       "ghost":102,
+      "orb":10,
       "spirit":30,
-      "phantom":3
+      "figure":43,
+      "mist":3
     },
     "apparition:places":2.0
   },
@@ -773,19 +773,19 @@
     "haunted_place_count":211,
     "unique_apparition_types":"apparition, demon, entity, figure, ghost, mist, orb, phantom, poltergeist, presence, shadow, spirit, witch",
     "apparition_type_counts":{
-      "figure":9,
-      "orb":5,
-      "shadow":13,
-      "poltergeist":1,
-      "mist":1,
+      "witch":3,
+      "demon":2,
       "entity":1,
       "apparition":14,
-      "demon":2,
-      "witch":3,
+      "phantom":1,
+      "mist":1,
+      "poltergeist":1,
       "presence":3,
       "ghost":29,
+      "orb":5,
       "spirit":15,
-      "phantom":1
+      "figure":9,
+      "shadow":13
     },
     "apparition:places":0.0
   },
@@ -797,18 +797,18 @@
     "haunted_place_count":155,
     "unique_apparition_types":"apparition, entity, figure, ghost, mist, orb, phantom, presence, shadow, spirit, vampire, witch",
     "apparition_type_counts":{
-      "figure":9,
-      "mist":2,
-      "orb":2,
       "shadow":2,
-      "entity":4,
-      "vampire":1,
-      "apparition":13,
       "witch":3,
-      "presence":12,
+      "entity":4,
+      "apparition":13,
+      "phantom":2,
+      "mist":2,
+      "vampire":1,
       "ghost":38,
+      "orb":2,
       "spirit":16,
-      "phantom":2
+      "figure":9,
+      "presence":12
     },
     "apparition:places":0.8
   },
@@ -820,23 +820,23 @@
     "haunted_place_count":649,
     "unique_apparition_types":"apparition, demon, entity, figure, ghost, imp, mist, orb, phantom, poltergeist, presence, shadow, specter, spirit, troll, vampire, witch",
     "apparition_type_counts":{
-      "troll":1,
-      "figure":44,
+      "witch":7,
       "specter":6,
-      "shadow":27,
-      "mist":8,
       "orb":20,
+      "demon":4,
+      "entity":5,
+      "apparition":47,
+      "phantom":9,
+      "mist":8,
+      "troll":1,
       "imp":1,
       "vampire":1,
-      "apparition":47,
-      "demon":4,
-      "witch":7,
-      "entity":5,
       "poltergeist":4,
-      "presence":33,
       "ghost":150,
+      "presence":33,
       "spirit":63,
-      "phantom":9
+      "figure":44,
+      "shadow":27
     },
     "apparition:places":0.0
   },
@@ -848,19 +848,19 @@
     "haunted_place_count":68,
     "unique_apparition_types":"apparition, demon, entity, figure, ghost, orb, phantom, poltergeist, presence, shadow, spirit, vampire, witch",
     "apparition_type_counts":{
+      "witch":1,
       "figure":3,
-      "shadow":5,
-      "vampire":2,
       "orb":2,
-      "poltergeist":2,
+      "demon":1,
       "entity":1,
       "apparition":6,
-      "witch":1,
-      "demon":1,
-      "presence":2,
+      "poltergeist":2,
+      "vampire":2,
       "ghost":20,
+      "presence":2,
       "spirit":16,
-      "phantom":1
+      "phantom":1,
+      "shadow":5
     },
     "apparition:places":1.0
   },
@@ -872,17 +872,17 @@
     "haunted_place_count":169,
     "unique_apparition_types":"apparition, figure, ghost, mist, orb, phantom, presence, shadow, spirit, troll, witch",
     "apparition_type_counts":{
-      "troll":1,
-      "figure":10,
-      "shadow":2,
-      "orb":4,
-      "mist":4,
-      "apparition":8,
       "witch":2,
+      "apparition":8,
+      "troll":1,
+      "mist":4,
       "presence":3,
+      "phantom":1,
       "ghost":43,
+      "orb":4,
       "spirit":8,
-      "phantom":1
+      "figure":10,
+      "shadow":2
     },
     "apparition:places":1.25
   },
@@ -895,14 +895,14 @@
     "unique_apparition_types":"apparition, figure, ghost, orb, phantom, poltergeist, presence, shadow, spirit",
     "apparition_type_counts":{
       "figure":6,
-      "shadow":4,
       "orb":3,
-      "poltergeist":2,
       "apparition":4,
-      "presence":1,
+      "poltergeist":2,
       "ghost":16,
+      "presence":1,
       "spirit":8,
-      "phantom":2
+      "phantom":2,
+      "shadow":4
     },
     "apparition:places":0.5
   },
@@ -914,19 +914,19 @@
     "haunted_place_count":221,
     "unique_apparition_types":"apparition, demon, entity, figure, ghost, mist, orb, phantom, poltergeist, presence, shadow, spirit, witch",
     "apparition_type_counts":{
-      "figure":13,
-      "mist":2,
       "shadow":7,
+      "witch":3,
       "orb":5,
-      "poltergeist":1,
+      "demon":1,
       "entity":1,
       "apparition":12,
-      "witch":3,
-      "demon":1,
-      "presence":7,
+      "phantom":1,
+      "poltergeist":1,
       "ghost":43,
+      "presence":7,
       "spirit":21,
-      "phantom":1
+      "figure":13,
+      "mist":2
     },
     "apparition:places":1.0
   },
@@ -938,21 +938,21 @@
     "haunted_place_count":696,
     "unique_apparition_types":"apparition, demon, entity, figure, ghost, mist, orb, phantom, poltergeist, presence, shadow, specter, spirit, troll, witch",
     "apparition_type_counts":{
-      "troll":1,
+      "witch":9,
       "figure":37,
       "specter":2,
-      "shadow":41,
       "orb":9,
-      "mist":6,
-      "entity":3,
-      "poltergeist":1,
-      "apparition":56,
-      "witch":9,
       "demon":3,
-      "presence":25,
+      "entity":3,
+      "apparition":56,
+      "troll":1,
+      "mist":6,
+      "poltergeist":1,
       "ghost":139,
+      "presence":25,
       "spirit":48,
-      "phantom":8
+      "phantom":8,
+      "shadow":41
     },
     "apparition:places":0.875
   },
@@ -964,17 +964,17 @@
     "haunted_place_count":133,
     "unique_apparition_types":"apparition, entity, figure, ghost, mist, orb, poltergeist, presence, shadow, specter, spirit",
     "apparition_type_counts":{
-      "figure":7,
-      "specter":1,
-      "mist":2,
       "shadow":10,
-      "entity":4,
+      "specter":1,
       "orb":5,
-      "poltergeist":1,
+      "entity":4,
       "apparition":8,
-      "presence":11,
+      "poltergeist":1,
       "ghost":34,
-      "spirit":6
+      "presence":11,
+      "spirit":6,
+      "figure":7,
+      "mist":2
     },
     "apparition:places":1.0
   },
@@ -988,13 +988,13 @@
     "apparition_type_counts":{
       "figure":2,
       "orb":2,
-      "poltergeist":2,
-      "shadow":1,
       "apparition":3,
-      "presence":4,
+      "poltergeist":2,
       "ghost":18,
+      "presence":4,
       "spirit":5,
-      "phantom":1
+      "phantom":1,
+      "shadow":1
     },
     "apparition:places":0.0
   },
@@ -1006,17 +1006,17 @@
     "haunted_place_count":192,
     "unique_apparition_types":"apparition, figure, ghost, mist, orb, poltergeist, presence, shadow, spirit, vampire, witch",
     "apparition_type_counts":{
-      "figure":15,
-      "shadow":6,
-      "orb":3,
-      "mist":1,
-      "vampire":1,
-      "poltergeist":1,
-      "apparition":13,
       "witch":2,
-      "presence":9,
+      "orb":3,
+      "apparition":13,
+      "mist":1,
+      "poltergeist":1,
+      "vampire":1,
       "ghost":58,
-      "spirit":15
+      "presence":9,
+      "spirit":15,
+      "figure":15,
+      "shadow":6
     },
     "apparition:places":0.0
   },
@@ -1028,15 +1028,15 @@
     "haunted_place_count":218,
     "unique_apparition_types":"apparition, entity, figure, ghost, orb, phantom, presence, shadow, spirit",
     "apparition_type_counts":{
-      "figure":14,
-      "shadow":9,
       "orb":3,
       "entity":2,
       "apparition":17,
-      "presence":12,
+      "phantom":2,
       "ghost":49,
+      "presence":12,
       "spirit":13,
-      "phantom":2
+      "figure":14,
+      "shadow":9
     },
     "apparition:places":0.0
   },
@@ -1048,18 +1048,18 @@
     "haunted_place_count":106,
     "unique_apparition_types":"apparition, demon, figure, ghost, mist, orb, presence, shadow, specter, spirit, warlock, witch",
     "apparition_type_counts":{
-      "figure":4,
-      "specter":1,
-      "shadow":4,
-      "mist":2,
-      "warlock":1,
-      "orb":3,
-      "apparition":7,
       "witch":3,
+      "specter":1,
+      "orb":3,
       "demon":1,
-      "presence":9,
+      "apparition":7,
+      "mist":2,
       "ghost":24,
-      "spirit":3
+      "warlock":1,
+      "presence":9,
+      "spirit":3,
+      "figure":4,
+      "shadow":4
     },
     "apparition:places":0.0
   },
@@ -1071,20 +1071,20 @@
     "haunted_place_count":274,
     "unique_apparition_types":"apparition, demon, entity, figure, ghost, imp, mist, orb, phantom, poltergeist, presence, shadow, spirit, witch",
     "apparition_type_counts":{
-      "figure":21,
-      "shadow":15,
-      "entity":2,
-      "mist":7,
-      "orb":7,
-      "poltergeist":2,
-      "apparition":19,
-      "demon":1,
       "witch":1,
+      "orb":7,
+      "demon":1,
+      "entity":2,
+      "apparition":19,
+      "phantom":3,
+      "mist":7,
+      "poltergeist":2,
       "imp":1,
-      "presence":13,
       "ghost":46,
+      "presence":13,
       "spirit":23,
-      "phantom":3
+      "figure":21,
+      "shadow":15
     },
     "apparition:places":0.1666666667
   },
@@ -1096,15 +1096,15 @@
     "haunted_place_count":76,
     "unique_apparition_types":"apparition, figure, ghost, orb, phantom, poltergeist, presence, shadow, spirit",
     "apparition_type_counts":{
-      "figure":3,
-      "shadow":4,
-      "poltergeist":1,
       "orb":1,
       "apparition":7,
-      "presence":4,
+      "phantom":1,
+      "poltergeist":1,
       "ghost":17,
+      "presence":4,
       "spirit":10,
-      "phantom":1
+      "figure":3,
+      "shadow":4
     },
     "apparition:places":0.5
   }

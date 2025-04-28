@@ -114,16 +114,53 @@ const ChoroplethMap = () => {
           .append("title")
           .text(d => {
             const stateName = d.properties.name.trim().toLowerCase();
-            const rate = dataMap.get(stateName);
-            const formattedRate = rate != null
-              ? isCrimeMetric
-                ? `${d3.format(".3f")(rate)}`
-                : isGradMetric
-                  ? `${d3.format(".1f")(rate)}%` 
-                  : d3.format(".1f")(rate) 
-              : "No data";
-            return `${d.properties.name}\n${selectedMetric.replace(/_/g, " ").replace(/\b\w/g, l => l.toUpperCase())}: ${formattedRate}`;
-            //return `${d.properties.name}\n${selectedMetric.replace(/_/g, " ").replace(/\b\w/g, l => l.toUpperCase())}: ${rate ?? "No data"}`;
+            const featureValues = aggData.find(x => x.state.trim().toLowerCase() === stateName);
+            if (!featureValues) return "No data";
+          
+            const tooltipFeatures = [
+              { label: "All Causes Death Rate", key: "death_rate_All causes", format: d3.format(".1f"), suffix: " per 100k capita (age-adjusted)" },
+              { label: "Violent Crime per capita", key: "Violent Crime per capita", format: d3.format(".1f"), suffix: " per 100k capita" },
+              { label: "HS Graduation Rate", key: "HS_Grad_Rate", format: null, suffix: "" }
+            ];
+          
+            let tooltipText = `${d.properties.name}\n`;
+          
+            // Add selected metric first (from the dropdown user chose)
+            const selectedValue = featureValues[selectedMetric];
+            if (selectedValue != null) {
+              const formattedSelected = selectedMetric.includes("Grad")
+                ? `${parseFloat(selectedValue.replace("%", "").trim())}%`
+                : selectedMetric.includes("Crime")
+                  ? `${d3.format(".1f")(selectedValue)}`
+                  : d3.format(".1f")(selectedValue);
+          
+              tooltipText += `${selectedMetric.replace(/_/g, " ").replace(/\b\w/g, l => l.toUpperCase())}: ${formattedSelected}\n`;
+            }
+          
+            // Now loop through and add the 3 core features — SKIP if exact match on `key`
+            tooltipFeatures.forEach(({ label, key, format, suffix }) => {
+              if (key !== selectedMetric) {  // Skip if it's the selected metric
+                const value = featureValues[key];
+            
+                if (value != null) {
+                  let formattedValue = value;
+            
+                  // If it's a percentage (e.g., "83.9%"), strip the "%" and convert to number
+                  if (typeof value === 'string' && value.includes('%')) {
+                    // Remove "%" and convert to number
+                    formattedValue = `${parseFloat(value.replace("%", "").trim())}%`;
+                  } else if (format) {
+                    // For other metrics, apply the regular format (e.g., .1f for numbers)
+                    formattedValue = format(+value);
+                  }
+            
+                  tooltipText += `${label}: ${formattedValue}${suffix}\n`;
+                }
+              }
+            });
+            // console.log("Feature Values:", featureValues);  // To check all features of a state
+            // console.log("HS Grad Rate:", featureValues["HS_Grad_Rate"]);  // Check the HS Grad Rate specifically
+            return tooltipText.trim();
           });
 
         // State value labels
@@ -141,13 +178,12 @@ const ChoroplethMap = () => {
               return isGradMetric ? `${d3.format(".1f")(rate)}%` : d3.format(".1f")(rate);
             }
             return "";
-            //return rate != null ? d3.format(".1f")(rate) : "";
           })
           .attr("fill", "black")
           .attr("font-size", "14px")
           .attr("text-anchor", "middle")
           .attr("alignment-baseline", "central");
-
+        
         // Append to the DOM
         const container = ref.current;
         container.innerHTML = "";

@@ -7,20 +7,20 @@
     "haunted_place_count":224,
     "unique_apparition_types":"apparition, entity, figure, ghost, imp, mist, orb, phantom, presence, shadow, spirit, witch",
     "apparition_type_counts":{
-      "witch":1,
+      "ghost":51,
+      "figure":16,
+      "spirit":13,
+      "apparition":12,
+      "presence":10,
+      "shadow":8,
       "orb":5,
       "entity":1,
-      "apparition":12,
+      "witch":1,
       "phantom":1,
-      "mist":1,
       "imp":1,
-      "ghost":51,
-      "presence":10,
-      "spirit":13,
-      "figure":16,
-      "shadow":8
+      "mist":1
     },
-    "apparition:places":3.0
+    "apparition:places":0.5357142857
   },
   {
     "state":"Alaska",
@@ -30,13 +30,13 @@
     "haunted_place_count":32,
     "unique_apparition_types":"apparition, figure, ghost, poltergeist, spirit",
     "apparition_type_counts":{
-      "apparition":4,
-      "poltergeist":1,
       "ghost":7,
+      "apparition":4,
       "spirit":4,
+      "poltergeist":1,
       "figure":1
     },
-    "apparition:places":1.0
+    "apparition:places":0.53125
   },
   {
     "state":"Arizona",
@@ -46,20 +46,20 @@
     "haunted_place_count":156,
     "unique_apparition_types":"apparition, demon, figure, ghost, mist, orb, phantom, poltergeist, presence, shadow, specter, spirit",
     "apparition_type_counts":{
-      "specter":2,
-      "orb":2,
-      "demon":1,
-      "apparition":16,
-      "phantom":1,
-      "mist":1,
-      "poltergeist":1,
       "ghost":30,
-      "presence":10,
+      "apparition":16,
       "spirit":15,
+      "shadow":11,
       "figure":11,
-      "shadow":11
+      "presence":10,
+      "orb":2,
+      "specter":2,
+      "phantom":1,
+      "poltergeist":1,
+      "demon":1,
+      "mist":1
     },
-    "apparition:places":0.0
+    "apparition:places":0.6474358974
   },
   {
     "state":"Arkansas",
@@ -69,20 +69,20 @@
     "haunted_place_count":119,
     "unique_apparition_types":"apparition, figure, ghost, mist, orb, phantom, poltergeist, presence, shadow, specter, spirit, witch",
     "apparition_type_counts":{
-      "witch":2,
-      "specter":1,
-      "apparition":11,
-      "phantom":2,
-      "mist":1,
-      "poltergeist":2,
-      "presence":3,
       "ghost":31,
+      "apparition":11,
+      "shadow":6,
       "orb":5,
-      "spirit":2,
+      "presence":3,
       "figure":3,
-      "shadow":6
+      "spirit":2,
+      "witch":2,
+      "phantom":2,
+      "poltergeist":2,
+      "specter":1,
+      "mist":1
     },
-    "apparition:places":1.0
+    "apparition:places":0.5798319328
   },
   {
     "state":"California",
@@ -92,22 +92,22 @@
     "haunted_place_count":1071,
     "unique_apparition_types":"apparition, demon, entity, figure, ghost, mist, orb, phantom, poltergeist, presence, shadow, specter, spirit, witch",
     "apparition_type_counts":{
-      "witch":9,
-      "specter":4,
-      "orb":20,
-      "demon":1,
-      "entity":12,
-      "apparition":98,
-      "phantom":4,
-      "mist":11,
-      "poltergeist":7,
       "ghost":257,
-      "presence":54,
+      "apparition":98,
       "spirit":92,
       "figure":75,
-      "shadow":42
+      "presence":54,
+      "shadow":42,
+      "orb":20,
+      "entity":12,
+      "mist":11,
+      "witch":9,
+      "poltergeist":7,
+      "phantom":4,
+      "specter":4,
+      "demon":1
     },
-    "apparition:places":0.0
+    "apparition:places":0.6405228758
   },
   {
     "state":"Colorado",
@@ -117,21 +117,21 @@
     "haunted_place_count":166,
     "unique_apparition_types":"apparition, entity, figure, ghost, mist, orb, phantom, poltergeist, presence, shadow, specter, spirit, witch",
     "apparition_type_counts":{
-      "shadow":5,
-      "witch":2,
-      "specter":1,
-      "entity":2,
+      "ghost":38,
+      "spirit":17,
       "apparition":15,
-      "phantom":1,
+      "presence":9,
+      "orb":8,
+      "figure":6,
+      "shadow":5,
       "mist":5,
       "poltergeist":3,
-      "ghost":38,
-      "orb":8,
-      "spirit":17,
-      "figure":6,
-      "presence":9
+      "entity":2,
+      "witch":2,
+      "phantom":1,
+      "specter":1
     },
-    "apparition:places":1.0
+    "apparition:places":0.6746987952
   },
   {
     "state":"Connecticut",
@@ -141,21 +141,21 @@
     "haunted_place_count":185,
     "unique_apparition_types":"apparition, demon, entity, figure, ghost, mist, orb, phantom, presence, shadow, specter, spirit, witch",
     "apparition_type_counts":{
-      "witch":5,
-      "specter":1,
-      "demon":2,
-      "entity":2,
-      "apparition":12,
-      "phantom":4,
-      "mist":5,
-      "presence":8,
       "ghost":40,
       "orb":25,
-      "spirit":12,
       "figure":18,
-      "shadow":4
+      "apparition":12,
+      "spirit":12,
+      "presence":8,
+      "witch":5,
+      "mist":5,
+      "shadow":4,
+      "phantom":4,
+      "entity":2,
+      "demon":2,
+      "specter":1
     },
-    "apparition:places":1.0
+    "apparition:places":0.7459459459
   },
   {
     "state":"Delaware",
@@ -165,15 +165,15 @@
     "haunted_place_count":37,
     "unique_apparition_types":"figure, ghost, orb, presence, shadow, specter, spirit",
     "apparition_type_counts":{
-      "shadow":1,
-      "specter":1,
       "ghost":9,
-      "orb":2,
       "spirit":4,
       "figure":4,
-      "presence":3
+      "presence":3,
+      "orb":2,
+      "shadow":1,
+      "specter":1
     },
-    "apparition:places":1.0
+    "apparition:places":0.6486486486
   },
   {
     "state":"Florida",
@@ -183,20 +183,20 @@
     "haunted_place_count":328,
     "unique_apparition_types":"apparition, entity, figure, ghost, mist, orb, phantom, poltergeist, presence, shadow, spirit, witch",
     "apparition_type_counts":{
-      "witch":2,
-      "entity":2,
-      "apparition":25,
-      "phantom":3,
-      "mist":3,
-      "presence":16,
-      "poltergeist":3,
       "ghost":69,
-      "orb":18,
       "spirit":32,
       "figure":26,
-      "shadow":16
+      "apparition":25,
+      "orb":18,
+      "shadow":16,
+      "presence":16,
+      "phantom":3,
+      "poltergeist":3,
+      "mist":3,
+      "entity":2,
+      "witch":2
     },
-    "apparition:places":0.5
+    "apparition:places":0.6554878049
   },
   {
     "state":"Georgia",
@@ -206,24 +206,24 @@
     "haunted_place_count":289,
     "unique_apparition_types":"apparition, demon, entity, figure, ghost, mist, orb, phantom, poltergeist, presence, shadow, specter, spirit, vampire, werewolf, witch",
     "apparition_type_counts":{
-      "shadow":9,
-      "witch":6,
-      "specter":3,
-      "demon":1,
-      "entity":1,
-      "apparition":21,
-      "phantom":3,
-      "mist":4,
-      "poltergeist":2,
-      "vampire":1,
-      "werewolf":1,
       "ghost":46,
-      "orb":13,
       "spirit":26,
       "figure":26,
-      "presence":10
+      "apparition":21,
+      "orb":13,
+      "presence":10,
+      "shadow":9,
+      "witch":6,
+      "mist":4,
+      "phantom":3,
+      "specter":3,
+      "poltergeist":2,
+      "entity":1,
+      "vampire":1,
+      "demon":1,
+      "werewolf":1
     },
-    "apparition:places":0.0
+    "apparition:places":0.598615917
   },
   {
     "state":"Hawaii",
@@ -233,14 +233,14 @@
     "haunted_place_count":96,
     "unique_apparition_types":"apparition, figure, ghost, shadow, specter, spirit",
     "apparition_type_counts":{
-      "specter":1,
-      "apparition":2,
       "ghost":23,
-      "spirit":8,
       "figure":9,
-      "shadow":4
+      "spirit":8,
+      "shadow":4,
+      "apparition":2,
+      "specter":1
     },
-    "apparition:places":1.0
+    "apparition:places":0.4895833333
   },
   {
     "state":"Idaho",
@@ -250,17 +250,17 @@
     "haunted_place_count":66,
     "unique_apparition_types":"apparition, figure, ghost, phantom, presence, shadow, specter, spirit, werewolf",
     "apparition_type_counts":{
-      "specter":1,
-      "apparition":10,
-      "phantom":1,
-      "werewolf":1,
       "ghost":11,
-      "presence":7,
+      "apparition":10,
       "spirit":7,
+      "presence":7,
       "figure":6,
-      "shadow":5
+      "shadow":5,
+      "phantom":1,
+      "specter":1,
+      "werewolf":1
     },
-    "apparition:places":0.0
+    "apparition:places":0.7424242424
   },
   {
     "state":"Illinois",
@@ -270,23 +270,23 @@
     "haunted_place_count":395,
     "unique_apparition_types":"apparition, demon, entity, figure, ghost, mist, orb, phantom, poltergeist, presence, shadow, specter, spirit, werewolf, witch",
     "apparition_type_counts":{
-      "shadow":20,
-      "witch":6,
-      "figure":24,
-      "specter":3,
+      "ghost":78,
+      "spirit":35,
+      "apparition":29,
       "orb":26,
+      "figure":24,
+      "shadow":20,
+      "presence":14,
+      "witch":6,
+      "mist":5,
+      "phantom":4,
+      "specter":3,
       "demon":2,
       "entity":1,
-      "apparition":29,
-      "werewolf":1,
       "poltergeist":1,
-      "ghost":78,
-      "presence":14,
-      "spirit":35,
-      "phantom":4,
-      "mist":5
+      "werewolf":1
     },
-    "apparition:places":1.0
+    "apparition:places":0.6303797468
   },
   {
     "state":"Indiana",
@@ -296,21 +296,21 @@
     "haunted_place_count":353,
     "unique_apparition_types":"apparition, demon, figure, ghost, mist, orb, phantom, presence, shadow, spirit, troll, werewolf, witch",
     "apparition_type_counts":{
-      "witch":4,
-      "demon":1,
-      "apparition":17,
-      "troll":1,
-      "mist":4,
-      "phantom":2,
-      "werewolf":1,
-      "presence":2,
       "ghost":52,
-      "orb":17,
-      "spirit":18,
       "figure":22,
-      "shadow":12
+      "spirit":18,
+      "apparition":17,
+      "orb":17,
+      "shadow":12,
+      "witch":4,
+      "mist":4,
+      "presence":2,
+      "phantom":2,
+      "troll":1,
+      "demon":1,
+      "werewolf":1
     },
-    "apparition:places":0.0
+    "apparition:places":0.433427762
   },
   {
     "state":"Iowa",
@@ -320,18 +320,18 @@
     "haunted_place_count":169,
     "unique_apparition_types":"apparition, entity, figure, ghost, orb, presence, shadow, specter, spirit, witch",
     "apparition_type_counts":{
-      "shadow":4,
-      "witch":1,
-      "specter":1,
-      "entity":3,
-      "apparition":8,
       "ghost":23,
-      "orb":7,
-      "spirit":13,
       "figure":17,
-      "presence":3
+      "spirit":13,
+      "apparition":8,
+      "orb":7,
+      "shadow":4,
+      "entity":3,
+      "presence":3,
+      "witch":1,
+      "specter":1
     },
-    "apparition:places":1.0
+    "apparition:places":0.4733727811
   },
   {
     "state":"Kansas",
@@ -341,21 +341,21 @@
     "haunted_place_count":122,
     "unique_apparition_types":"apparition, demon, entity, figure, ghost, mist, orb, phantom, poltergeist, presence, shadow, spirit, witch",
     "apparition_type_counts":{
-      "witch":2,
-      "demon":2,
-      "entity":3,
-      "apparition":8,
-      "phantom":1,
-      "mist":2,
-      "presence":2,
-      "poltergeist":1,
       "ghost":22,
-      "orb":3,
       "spirit":10,
+      "apparition":8,
       "figure":7,
-      "shadow":5
+      "shadow":5,
+      "entity":3,
+      "orb":3,
+      "witch":2,
+      "presence":2,
+      "demon":2,
+      "mist":2,
+      "phantom":1,
+      "poltergeist":1
     },
-    "apparition:places":1.0
+    "apparition:places":0.5573770492
   },
   {
     "state":"Kentucky",
@@ -365,22 +365,22 @@
     "haunted_place_count":370,
     "unique_apparition_types":"apparition, demon, figure, ghost, mist, orb, phantom, poltergeist, presence, shadow, specter, spirit, werewolf, witch",
     "apparition_type_counts":{
-      "witch":6,
-      "specter":1,
-      "demon":2,
-      "apparition":20,
-      "phantom":2,
-      "mist":2,
-      "presence":9,
-      "poltergeist":1,
-      "werewolf":1,
       "ghost":45,
-      "orb":5,
-      "spirit":20,
       "figure":27,
-      "shadow":14
+      "spirit":20,
+      "apparition":20,
+      "shadow":14,
+      "presence":9,
+      "witch":6,
+      "orb":5,
+      "phantom":2,
+      "demon":2,
+      "mist":2,
+      "specter":1,
+      "poltergeist":1,
+      "werewolf":1
     },
-    "apparition:places":3.0
+    "apparition:places":0.4189189189
   },
   {
     "state":"Louisiana",
@@ -390,17 +390,17 @@
     "haunted_place_count":99,
     "unique_apparition_types":"apparition, figure, ghost, mist, orb, presence, shadow, spirit, vampire",
     "apparition_type_counts":{
-      "apparition":8,
-      "mist":3,
-      "presence":4,
-      "vampire":1,
       "ghost":33,
-      "orb":3,
       "spirit":8,
+      "apparition":8,
       "figure":5,
-      "shadow":4
+      "shadow":4,
+      "presence":4,
+      "orb":3,
+      "mist":3,
+      "vampire":1
     },
-    "apparition:places":0.3333333333
+    "apparition:places":0.696969697
   },
   {
     "state":"Maine",
@@ -410,16 +410,16 @@
     "haunted_place_count":57,
     "unique_apparition_types":"apparition, figure, ghost, orb, poltergeist, shadow, spirit, witch",
     "apparition_type_counts":{
-      "witch":3,
-      "apparition":1,
-      "poltergeist":2,
       "ghost":11,
-      "orb":3,
       "spirit":6,
       "figure":5,
-      "shadow":2
+      "witch":3,
+      "orb":3,
+      "shadow":2,
+      "poltergeist":2,
+      "apparition":1
     },
-    "apparition:places":0.0
+    "apparition:places":0.5789473684
   },
   {
     "state":"Maryland",
@@ -429,18 +429,18 @@
     "haunted_place_count":170,
     "unique_apparition_types":"apparition, demon, figure, ghost, orb, phantom, presence, shadow, spirit, witch",
     "apparition_type_counts":{
-      "witch":4,
-      "orb":2,
-      "demon":1,
-      "apparition":2,
-      "phantom":1,
       "ghost":35,
-      "presence":7,
-      "spirit":8,
       "figure":10,
-      "shadow":5
+      "spirit":8,
+      "presence":7,
+      "shadow":5,
+      "witch":4,
+      "apparition":2,
+      "orb":2,
+      "phantom":1,
+      "demon":1
     },
-    "apparition:places":0.6666666667
+    "apparition:places":0.4411764706
   },
   {
     "state":"Massachusetts",
@@ -450,21 +450,21 @@
     "haunted_place_count":344,
     "unique_apparition_types":"apparition, demon, figure, ghost, mist, orb, phantom, poltergeist, presence, shadow, specter, spirit, witch",
     "apparition_type_counts":{
-      "witch":5,
-      "specter":2,
-      "demon":1,
-      "apparition":21,
-      "phantom":1,
-      "mist":5,
-      "poltergeist":5,
-      "presence":14,
       "ghost":81,
-      "orb":6,
       "spirit":24,
+      "apparition":21,
       "figure":21,
-      "shadow":15
+      "shadow":15,
+      "presence":14,
+      "orb":6,
+      "witch":5,
+      "poltergeist":5,
+      "mist":5,
+      "specter":2,
+      "phantom":1,
+      "demon":1
     },
-    "apparition:places":1.0
+    "apparition:places":0.5843023256
   },
   {
     "state":"Michigan",
@@ -474,24 +474,24 @@
     "haunted_place_count":529,
     "unique_apparition_types":"apparition, demon, entity, figure, ghost, mist, orb, phantom, poltergeist, presence, shadow, specter, spirit, warlock, werewolf, witch",
     "apparition_type_counts":{
+      "ghost":93,
+      "figure":59,
+      "apparition":31,
+      "spirit":30,
+      "orb":30,
+      "presence":24,
       "shadow":20,
+      "mist":7,
       "witch":5,
+      "phantom":5,
+      "entity":2,
+      "warlock":2,
       "specter":2,
       "demon":2,
-      "entity":2,
-      "apparition":31,
-      "phantom":5,
-      "mist":7,
-      "werewolf":1,
       "poltergeist":1,
-      "ghost":93,
-      "warlock":2,
-      "orb":30,
-      "spirit":30,
-      "figure":59,
-      "presence":24
+      "werewolf":1
     },
-    "apparition:places":1.0
+    "apparition:places":0.5935727788
   },
   {
     "state":"Minnesota",
@@ -501,16 +501,16 @@
     "haunted_place_count":162,
     "unique_apparition_types":"apparition, figure, ghost, orb, presence, shadow, spirit, witch",
     "apparition_type_counts":{
-      "witch":1,
-      "orb":1,
-      "apparition":11,
       "ghost":33,
-      "presence":2,
-      "spirit":16,
       "figure":18,
-      "shadow":2
+      "spirit":16,
+      "apparition":11,
+      "presence":2,
+      "shadow":2,
+      "witch":1,
+      "orb":1
     },
-    "apparition:places":0.0
+    "apparition:places":0.5185185185
   },
   {
     "state":"Mississippi",
@@ -520,13 +520,13 @@
     "haunted_place_count":63,
     "unique_apparition_types":"figure, ghost, presence, specter, spirit",
     "apparition_type_counts":{
-      "specter":1,
       "ghost":16,
-      "presence":3,
       "spirit":7,
-      "figure":4
+      "figure":4,
+      "presence":3,
+      "specter":1
     },
-    "apparition:places":2.0
+    "apparition:places":0.4920634921
   },
   {
     "state":"Missouri",
@@ -536,21 +536,21 @@
     "haunted_place_count":314,
     "unique_apparition_types":"apparition, demon, entity, figure, ghost, mist, orb, poltergeist, presence, shadow, specter, spirit, witch",
     "apparition_type_counts":{
+      "ghost":74,
+      "apparition":26,
+      "figure":21,
+      "spirit":15,
+      "shadow":12,
+      "orb":9,
+      "presence":8,
+      "mist":4,
+      "entity":1,
       "witch":1,
       "specter":1,
-      "demon":1,
-      "entity":1,
-      "apparition":26,
-      "mist":4,
-      "presence":8,
       "poltergeist":1,
-      "ghost":74,
-      "orb":9,
-      "spirit":15,
-      "figure":21,
-      "shadow":12
+      "demon":1
     },
-    "apparition:places":2.0
+    "apparition:places":0.5541401274
   },
   {
     "state":"Montana",
@@ -560,16 +560,16 @@
     "haunted_place_count":42,
     "unique_apparition_types":"figure, ghost, mist, orb, poltergeist, presence, shadow, spirit",
     "apparition_type_counts":{
-      "orb":1,
-      "mist":1,
-      "poltergeist":1,
       "ghost":10,
-      "presence":1,
       "spirit":6,
       "figure":4,
-      "shadow":3
+      "shadow":3,
+      "orb":1,
+      "presence":1,
+      "poltergeist":1,
+      "mist":1
     },
-    "apparition:places":0.0
+    "apparition:places":0.6428571429
   },
   {
     "state":"Nebraska",
@@ -579,19 +579,19 @@
     "haunted_place_count":111,
     "unique_apparition_types":"apparition, entity, figure, ghost, mist, phantom, presence, shadow, specter, spirit, witch",
     "apparition_type_counts":{
-      "witch":2,
-      "specter":1,
-      "entity":1,
-      "apparition":5,
-      "phantom":2,
-      "presence":2,
       "ghost":35,
-      "shadow":2,
-      "spirit":8,
       "figure":13,
-      "mist":2
+      "spirit":8,
+      "apparition":5,
+      "witch":2,
+      "shadow":2,
+      "presence":2,
+      "phantom":2,
+      "mist":2,
+      "entity":1,
+      "specter":1
     },
-    "apparition:places":4.0
+    "apparition:places":0.6576576577
   },
   {
     "state":"Nevada",
@@ -601,14 +601,14 @@
     "haunted_place_count":56,
     "unique_apparition_types":"apparition, figure, ghost, presence, shadow, spirit",
     "apparition_type_counts":{
-      "apparition":5,
       "ghost":11,
-      "presence":2,
-      "spirit":3,
       "figure":7,
-      "shadow":2
+      "apparition":5,
+      "spirit":3,
+      "shadow":2,
+      "presence":2
     },
-    "apparition:places":1.0
+    "apparition:places":0.5357142857
   },
   {
     "state":"New Hampshire",
@@ -618,20 +618,20 @@
     "haunted_place_count":72,
     "unique_apparition_types":"apparition, demon, figure, ghost, mist, orb, phantom, presence, shadow, specter, spirit, witch",
     "apparition_type_counts":{
-      "witch":1,
-      "specter":2,
-      "demon":1,
-      "apparition":6,
-      "phantom":1,
-      "mist":3,
-      "presence":5,
       "ghost":15,
-      "orb":1,
       "spirit":8,
+      "apparition":6,
+      "presence":5,
+      "shadow":4,
       "figure":4,
-      "shadow":4
+      "mist":3,
+      "specter":2,
+      "witch":1,
+      "orb":1,
+      "phantom":1,
+      "demon":1
     },
-    "apparition:places":1.0
+    "apparition:places":0.7083333333
   },
   {
     "state":"New Jersey",
@@ -641,18 +641,18 @@
     "haunted_place_count":194,
     "unique_apparition_types":"apparition, entity, figure, ghost, mist, orb, phantom, presence, shadow, spirit",
     "apparition_type_counts":{
-      "shadow":5,
-      "orb":9,
-      "entity":1,
-      "apparition":9,
-      "phantom":1,
       "ghost":43,
-      "presence":7,
       "spirit":18,
       "figure":13,
-      "mist":8
+      "apparition":9,
+      "orb":9,
+      "mist":8,
+      "presence":7,
+      "shadow":5,
+      "entity":1,
+      "phantom":1
     },
-    "apparition:places":0.5
+    "apparition:places":0.587628866
   },
   {
     "state":"New Mexico",
@@ -662,17 +662,17 @@
     "haunted_place_count":78,
     "unique_apparition_types":"apparition, entity, figure, ghost, imp, phantom, presence, shadow, spirit",
     "apparition_type_counts":{
-      "entity":2,
-      "apparition":9,
-      "imp":1,
-      "phantom":1,
       "ghost":19,
-      "presence":2,
-      "spirit":4,
+      "apparition":9,
       "figure":7,
-      "shadow":6
+      "shadow":6,
+      "spirit":4,
+      "entity":2,
+      "presence":2,
+      "imp":1,
+      "phantom":1
     },
-    "apparition:places":0.0
+    "apparition:places":0.6538461538
   },
   {
     "state":"New York",
@@ -682,21 +682,21 @@
     "haunted_place_count":459,
     "unique_apparition_types":"apparition, entity, figure, ghost, mist, orb, phantom, poltergeist, presence, shadow, specter, spirit, witch",
     "apparition_type_counts":{
-      "witch":4,
-      "specter":5,
-      "orb":18,
-      "entity":1,
-      "apparition":40,
-      "phantom":2,
-      "mist":4,
-      "poltergeist":2,
       "ghost":91,
-      "presence":20,
       "spirit":49,
+      "apparition":40,
       "figure":27,
-      "shadow":17
+      "presence":20,
+      "orb":18,
+      "shadow":17,
+      "specter":5,
+      "witch":4,
+      "mist":4,
+      "phantom":2,
+      "poltergeist":2,
+      "entity":1
     },
-    "apparition:places":1.0
+    "apparition:places":0.6100217865
   },
   {
     "state":"North Carolina",
@@ -706,20 +706,20 @@
     "haunted_place_count":211,
     "unique_apparition_types":"apparition, demon, figure, ghost, mist, orb, phantom, presence, shadow, specter, spirit, witch",
     "apparition_type_counts":{
-      "witch":1,
-      "specter":1,
-      "orb":2,
-      "demon":1,
-      "apparition":13,
-      "phantom":2,
-      "mist":1,
       "ghost":48,
-      "presence":9,
       "spirit":16,
       "figure":14,
-      "shadow":12
+      "apparition":13,
+      "shadow":12,
+      "presence":9,
+      "orb":2,
+      "phantom":2,
+      "witch":1,
+      "specter":1,
+      "demon":1,
+      "mist":1
     },
-    "apparition:places":0.0
+    "apparition:places":0.5687203791
   },
   {
     "state":"North Dakota",
@@ -729,16 +729,16 @@
     "haunted_place_count":58,
     "unique_apparition_types":"apparition, entity, figure, ghost, presence, shadow, spirit, witch",
     "apparition_type_counts":{
-      "witch":1,
-      "entity":1,
-      "apparition":4,
       "ghost":9,
+      "figure":6,
+      "apparition":4,
       "presence":3,
       "spirit":2,
-      "figure":6,
-      "shadow":2
+      "shadow":2,
+      "entity":1,
+      "witch":1
     },
-    "apparition:places":1.0
+    "apparition:places":0.4827586207
   },
   {
     "state":"Ohio",
@@ -748,22 +748,22 @@
     "haunted_place_count":477,
     "unique_apparition_types":"apparition, demon, entity, figure, ghost, mist, orb, phantom, poltergeist, presence, shadow, specter, spirit, witch",
     "apparition_type_counts":{
+      "ghost":102,
+      "figure":43,
+      "spirit":30,
+      "apparition":28,
       "shadow":19,
+      "orb":10,
+      "presence":10,
       "witch":9,
       "specter":4,
-      "demon":3,
-      "entity":2,
-      "apparition":28,
       "phantom":3,
-      "presence":10,
-      "poltergeist":1,
-      "ghost":102,
-      "orb":10,
-      "spirit":30,
-      "figure":43,
-      "mist":3
+      "demon":3,
+      "mist":3,
+      "entity":2,
+      "poltergeist":1
     },
-    "apparition:places":2.0
+    "apparition:places":0.5597484277
   },
   {
     "state":"Oklahoma",
@@ -773,21 +773,21 @@
     "haunted_place_count":211,
     "unique_apparition_types":"apparition, demon, entity, figure, ghost, mist, orb, phantom, poltergeist, presence, shadow, spirit, witch",
     "apparition_type_counts":{
+      "ghost":29,
+      "spirit":15,
+      "apparition":14,
+      "shadow":13,
+      "figure":9,
+      "orb":5,
       "witch":3,
+      "presence":3,
       "demon":2,
       "entity":1,
-      "apparition":14,
       "phantom":1,
-      "mist":1,
       "poltergeist":1,
-      "presence":3,
-      "ghost":29,
-      "orb":5,
-      "spirit":15,
-      "figure":9,
-      "shadow":13
+      "mist":1
     },
-    "apparition:places":0.0
+    "apparition:places":0.4597156398
   },
   {
     "state":"Oregon",
@@ -797,20 +797,20 @@
     "haunted_place_count":155,
     "unique_apparition_types":"apparition, entity, figure, ghost, mist, orb, phantom, presence, shadow, spirit, vampire, witch",
     "apparition_type_counts":{
-      "shadow":2,
-      "witch":3,
-      "entity":4,
+      "ghost":38,
+      "spirit":16,
       "apparition":13,
+      "presence":12,
+      "figure":9,
+      "entity":4,
+      "witch":3,
+      "orb":2,
+      "shadow":2,
       "phantom":2,
       "mist":2,
-      "vampire":1,
-      "ghost":38,
-      "orb":2,
-      "spirit":16,
-      "figure":9,
-      "presence":12
+      "vampire":1
     },
-    "apparition:places":0.8
+    "apparition:places":0.6709677419
   },
   {
     "state":"Pennsylvania",
@@ -820,25 +820,25 @@
     "haunted_place_count":649,
     "unique_apparition_types":"apparition, demon, entity, figure, ghost, imp, mist, orb, phantom, poltergeist, presence, shadow, specter, spirit, troll, vampire, witch",
     "apparition_type_counts":{
-      "witch":7,
-      "specter":6,
-      "orb":20,
-      "demon":4,
-      "entity":5,
+      "ghost":150,
+      "spirit":63,
       "apparition":47,
+      "figure":44,
+      "presence":33,
+      "shadow":27,
+      "orb":20,
       "phantom":9,
       "mist":8,
+      "witch":7,
+      "specter":6,
+      "entity":5,
+      "poltergeist":4,
+      "demon":4,
       "troll":1,
       "imp":1,
-      "vampire":1,
-      "poltergeist":4,
-      "ghost":150,
-      "presence":33,
-      "spirit":63,
-      "figure":44,
-      "shadow":27
+      "vampire":1
     },
-    "apparition:places":0.0
+    "apparition:places":0.6625577812
   },
   {
     "state":"Rhode Island",
@@ -848,21 +848,21 @@
     "haunted_place_count":68,
     "unique_apparition_types":"apparition, demon, entity, figure, ghost, orb, phantom, poltergeist, presence, shadow, spirit, vampire, witch",
     "apparition_type_counts":{
-      "witch":1,
+      "ghost":20,
+      "spirit":16,
+      "apparition":6,
+      "shadow":5,
       "figure":3,
       "orb":2,
-      "demon":1,
-      "entity":1,
-      "apparition":6,
-      "poltergeist":2,
-      "vampire":2,
-      "ghost":20,
       "presence":2,
-      "spirit":16,
+      "vampire":2,
+      "poltergeist":2,
+      "entity":1,
+      "witch":1,
       "phantom":1,
-      "shadow":5
+      "demon":1
     },
-    "apparition:places":1.0
+    "apparition:places":0.9117647059
   },
   {
     "state":"South Carolina",
@@ -872,19 +872,19 @@
     "haunted_place_count":169,
     "unique_apparition_types":"apparition, figure, ghost, mist, orb, phantom, presence, shadow, spirit, troll, witch",
     "apparition_type_counts":{
-      "witch":2,
+      "ghost":43,
+      "figure":10,
+      "spirit":8,
       "apparition":8,
-      "troll":1,
+      "orb":4,
       "mist":4,
       "presence":3,
-      "phantom":1,
-      "ghost":43,
-      "orb":4,
-      "spirit":8,
-      "figure":10,
-      "shadow":2
+      "witch":2,
+      "shadow":2,
+      "troll":1,
+      "phantom":1
     },
-    "apparition:places":1.25
+    "apparition:places":0.5088757396
   },
   {
     "state":"South Dakota",
@@ -894,17 +894,17 @@
     "haunted_place_count":75,
     "unique_apparition_types":"apparition, figure, ghost, orb, phantom, poltergeist, presence, shadow, spirit",
     "apparition_type_counts":{
-      "figure":6,
-      "orb":3,
-      "apparition":4,
-      "poltergeist":2,
       "ghost":16,
-      "presence":1,
       "spirit":8,
+      "figure":6,
+      "apparition":4,
+      "shadow":4,
+      "orb":3,
       "phantom":2,
-      "shadow":4
+      "poltergeist":2,
+      "presence":1
     },
-    "apparition:places":0.5
+    "apparition:places":0.6133333333
   },
   {
     "state":"Tennessee",
@@ -914,21 +914,21 @@
     "haunted_place_count":221,
     "unique_apparition_types":"apparition, demon, entity, figure, ghost, mist, orb, phantom, poltergeist, presence, shadow, spirit, witch",
     "apparition_type_counts":{
-      "shadow":7,
-      "witch":3,
-      "orb":5,
-      "demon":1,
-      "entity":1,
-      "apparition":12,
-      "phantom":1,
-      "poltergeist":1,
       "ghost":43,
-      "presence":7,
       "spirit":21,
       "figure":13,
-      "mist":2
+      "apparition":12,
+      "presence":7,
+      "shadow":7,
+      "orb":5,
+      "witch":3,
+      "mist":2,
+      "entity":1,
+      "phantom":1,
+      "poltergeist":1,
+      "demon":1
     },
-    "apparition:places":1.0
+    "apparition:places":0.5294117647
   },
   {
     "state":"Texas",
@@ -938,23 +938,23 @@
     "haunted_place_count":696,
     "unique_apparition_types":"apparition, demon, entity, figure, ghost, mist, orb, phantom, poltergeist, presence, shadow, specter, spirit, troll, witch",
     "apparition_type_counts":{
-      "witch":9,
-      "figure":37,
-      "specter":2,
-      "orb":9,
-      "demon":3,
-      "entity":3,
-      "apparition":56,
-      "troll":1,
-      "mist":6,
-      "poltergeist":1,
       "ghost":139,
-      "presence":25,
+      "apparition":56,
       "spirit":48,
+      "shadow":41,
+      "figure":37,
+      "presence":25,
+      "witch":9,
+      "orb":9,
       "phantom":8,
-      "shadow":41
+      "mist":6,
+      "entity":3,
+      "demon":3,
+      "specter":2,
+      "troll":1,
+      "poltergeist":1
     },
-    "apparition:places":0.875
+    "apparition:places":0.5574712644
   },
   {
     "state":"Utah",
@@ -964,19 +964,19 @@
     "haunted_place_count":133,
     "unique_apparition_types":"apparition, entity, figure, ghost, mist, orb, poltergeist, presence, shadow, specter, spirit",
     "apparition_type_counts":{
-      "shadow":10,
-      "specter":1,
-      "orb":5,
-      "entity":4,
-      "apparition":8,
-      "poltergeist":1,
       "ghost":34,
       "presence":11,
-      "spirit":6,
+      "shadow":10,
+      "apparition":8,
       "figure":7,
-      "mist":2
+      "spirit":6,
+      "orb":5,
+      "entity":4,
+      "mist":2,
+      "specter":1,
+      "poltergeist":1
     },
-    "apparition:places":1.0
+    "apparition:places":0.6691729323
   },
   {
     "state":"Vermont",
@@ -986,17 +986,17 @@
     "haunted_place_count":63,
     "unique_apparition_types":"apparition, figure, ghost, orb, phantom, poltergeist, presence, shadow, spirit",
     "apparition_type_counts":{
-      "figure":2,
-      "orb":2,
-      "apparition":3,
-      "poltergeist":2,
       "ghost":18,
-      "presence":4,
       "spirit":5,
-      "phantom":1,
-      "shadow":1
+      "presence":4,
+      "apparition":3,
+      "orb":2,
+      "poltergeist":2,
+      "figure":2,
+      "shadow":1,
+      "phantom":1
     },
-    "apparition:places":0.0
+    "apparition:places":0.6031746032
   },
   {
     "state":"Virginia",
@@ -1006,19 +1006,19 @@
     "haunted_place_count":192,
     "unique_apparition_types":"apparition, figure, ghost, mist, orb, poltergeist, presence, shadow, spirit, vampire, witch",
     "apparition_type_counts":{
-      "witch":2,
-      "orb":3,
-      "apparition":13,
-      "mist":1,
-      "poltergeist":1,
-      "vampire":1,
       "ghost":58,
-      "presence":9,
       "spirit":15,
       "figure":15,
-      "shadow":6
+      "apparition":13,
+      "presence":9,
+      "shadow":6,
+      "orb":3,
+      "witch":2,
+      "vampire":1,
+      "poltergeist":1,
+      "mist":1
     },
-    "apparition:places":0.0
+    "apparition:places":0.6458333333
   },
   {
     "state":"Washington",
@@ -1028,17 +1028,17 @@
     "haunted_place_count":218,
     "unique_apparition_types":"apparition, entity, figure, ghost, orb, phantom, presence, shadow, spirit",
     "apparition_type_counts":{
+      "ghost":49,
+      "apparition":17,
+      "figure":14,
+      "spirit":13,
+      "presence":12,
+      "shadow":9,
       "orb":3,
       "entity":2,
-      "apparition":17,
-      "phantom":2,
-      "ghost":49,
-      "presence":12,
-      "spirit":13,
-      "figure":14,
-      "shadow":9
+      "phantom":2
     },
-    "apparition:places":0.0
+    "apparition:places":0.5550458716
   },
   {
     "state":"West Virginia",
@@ -1048,20 +1048,20 @@
     "haunted_place_count":106,
     "unique_apparition_types":"apparition, demon, figure, ghost, mist, orb, presence, shadow, specter, spirit, warlock, witch",
     "apparition_type_counts":{
-      "witch":3,
-      "specter":1,
-      "orb":3,
-      "demon":1,
-      "apparition":7,
-      "mist":2,
       "ghost":24,
-      "warlock":1,
       "presence":9,
-      "spirit":3,
+      "apparition":7,
+      "shadow":4,
       "figure":4,
-      "shadow":4
+      "spirit":3,
+      "witch":3,
+      "orb":3,
+      "mist":2,
+      "warlock":1,
+      "specter":1,
+      "demon":1
     },
-    "apparition:places":0.0
+    "apparition:places":0.5849056604
   },
   {
     "state":"Wisconsin",
@@ -1071,22 +1071,22 @@
     "haunted_place_count":274,
     "unique_apparition_types":"apparition, demon, entity, figure, ghost, imp, mist, orb, phantom, poltergeist, presence, shadow, spirit, witch",
     "apparition_type_counts":{
-      "witch":1,
-      "orb":7,
-      "demon":1,
-      "entity":2,
-      "apparition":19,
-      "phantom":3,
-      "mist":7,
-      "poltergeist":2,
-      "imp":1,
       "ghost":46,
-      "presence":13,
       "spirit":23,
       "figure":21,
-      "shadow":15
+      "apparition":19,
+      "shadow":15,
+      "presence":13,
+      "orb":7,
+      "mist":7,
+      "phantom":3,
+      "entity":2,
+      "poltergeist":2,
+      "witch":1,
+      "imp":1,
+      "demon":1
     },
-    "apparition:places":0.1666666667
+    "apparition:places":0.5875912409
   },
   {
     "state":"Wyoming",
@@ -1096,16 +1096,16 @@
     "haunted_place_count":76,
     "unique_apparition_types":"apparition, figure, ghost, orb, phantom, poltergeist, presence, shadow, spirit",
     "apparition_type_counts":{
-      "orb":1,
-      "apparition":7,
-      "phantom":1,
-      "poltergeist":1,
       "ghost":17,
-      "presence":4,
       "spirit":10,
+      "apparition":7,
+      "presence":4,
+      "shadow":4,
       "figure":3,
-      "shadow":4
+      "orb":1,
+      "phantom":1,
+      "poltergeist":1
     },
-    "apparition:places":0.5
+    "apparition:places":0.6315789474
   }
 ]

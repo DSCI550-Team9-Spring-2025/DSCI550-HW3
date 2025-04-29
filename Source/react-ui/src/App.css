@@ -58,6 +58,7 @@ svg {
   height: 50%; /* Or whatever max height you want */
   object-fit: cover;
   border-radius: 5px;
+  border: 1px solid #444;
   display: block;
   margin: 0 auto;
 }

@@ -58,7 +58,7 @@ const EntityBarChart = () => {
       .selectAll("rect")
       .data(sorted)
       .join("rect")
-      .attr("fill", "orange")
+      .attr("fill", "#6BADCE")
       .attr("x", d => x(d.label))
       .attr("y", d => y(d.count))
       .attr("height", d => y(0) - y(d.count))

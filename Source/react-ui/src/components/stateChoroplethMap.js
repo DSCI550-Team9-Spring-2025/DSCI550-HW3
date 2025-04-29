@@ -63,7 +63,7 @@ const ChoroplethMap = () => {
         
         const color = d3.scaleSequential()
         .domain(d3.extent(metricValues)) // [min, max] range based on data
-        .interpolator(isGradMetric ? d3.interpolateBlues : isCrimeMetric ? d3.interpolateOranges : d3.interpolateReds);        
+        .interpolator(d3.interpolatePuBu);        
         // Legend that dynamically adapts to the metricValue user selects
         const legend = legendColor()
           .labelFormat(d3.format(".0f"))
@@ -196,8 +196,7 @@ const ChoroplethMap = () => {
     <div className="choropleth-map-wrapper">
       <h2>State Aggregated Choropleth Map</h2>
       <p>
-        Interactive map showing the age-adjusted death rates per state.
-        Choose between one or all of the top 10 leading causes of death in the US.<br/><br/>
+        Interactive map showing various state-based metrics.<br/><br/>
         <strong>Insight:</strong><br/>
         There appears to be negative correlation between sightings (see Spike Map) and suicides. 
         Besides potentially unintentional injuries, suicide seems to be the most morbid among the leading causes - Word Cloud suggests that a significant portion of trigger events were morbid.
@@ -207,21 +206,21 @@ const ChoroplethMap = () => {
           Choose a metric:{" "}
           <select value={selectedMetric} onChange={(e) => setSelectedMetric(e.target.value)}>
           <option value="death_rate_All causes">All Causes Death Rate (per 100k capita, age-adjusted)</option>
-<option value="death_rate_Alzheimer's disease">Alzheimer's Death Rate (per 100k capita, age-adjusted)</option>
-<option value="death_rate_Cancer">Cancer Death Rate (per 100k capita, age-adjusted)</option>
-<option value="death_rate_CLRD">CLRD Death Rate (per 100k capita, age-adjusted)</option>
-<option value="death_rate_Diabetes">Diabetes Death Rate (per 100k capita, age-adjusted)</option>
-<option value="death_rate_Heart disease">Heart Disease Death Rate (per 100k capita, age-adjusted)</option>
-<option value="death_rate_Influenza and pneumonia">Influenza and Pneumonia Death Rate (per 100k capita, age-adjusted)</option>
-<option value="death_rate_Kidney disease">Kidney Disease Death Rate (per 100k capita, age-adjusted)</option>
-<option value="death_rate_Suicide">Suicide Death Rate (per 100k capita, age-adjusted)</option>
-<option value="death_rate_Unintentional injuries">Unintentional Injuries Death Rate (per 100k capita, age-adjusted)</option>
-<option value="HS_Grad_Rate">Highschool Graduation Rate %</option>
-<option value="Undergrad_Grad_Rate">Undergrad Graduation Rate %</option>
-<option value="STEM_Grad_Percentage">STEM Graduation Rate %</option>
-<option value="Murder per capita">Murder Crime Rate (per 100k capita)</option>
-<option value="Violent Crime per capita">Violent Crime Rate (per 100k capita)</option>
-<option value="Property Crime per capita">Property Crime Rate (per 100k capita)</option>
+          <option value="death_rate_Alzheimer's disease">Alzheimer's Death Rate (per 100k capita, age-adjusted)</option>
+          <option value="death_rate_Cancer">Cancer Death Rate (per 100k capita, age-adjusted)</option>
+          <option value="death_rate_CLRD">CLRD Death Rate (per 100k capita, age-adjusted)</option>
+          <option value="death_rate_Diabetes">Diabetes Death Rate (per 100k capita, age-adjusted)</option>
+          <option value="death_rate_Heart disease">Heart Disease Death Rate (per 100k capita, age-adjusted)</option>
+          <option value="death_rate_Influenza and pneumonia">Influenza and Pneumonia Death Rate (per 100k capita, age-adjusted)</option>
+          <option value="death_rate_Kidney disease">Kidney Disease Death Rate (per 100k capita, age-adjusted)</option>
+          <option value="death_rate_Suicide">Suicide Death Rate (per 100k capita, age-adjusted)</option>
+          <option value="death_rate_Unintentional injuries">Unintentional Injuries Death Rate (per 100k capita, age-adjusted)</option>
+          <option value="HS_Grad_Rate">Highschool Graduation Rate %</option>
+          <option value="Undergrad_Grad_Rate">Undergrad Graduation Rate %</option>
+          <option value="STEM_Grad_Percentage">STEM Graduation Rate %</option>
+          <option value="Murder per capita">Murder Crime Rate (per 100k capita)</option>
+          <option value="Violent Crime per capita">Violent Crime Rate (per 100k capita)</option>
+          <option value="Property Crime per capita">Property Crime Rate (per 100k capita)</option>
           </select>
         </label>
       <div ref={ref}></div>

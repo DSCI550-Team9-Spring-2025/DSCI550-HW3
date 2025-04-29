@@ -7,9 +7,9 @@ const HomePage = () => {
   const visualizations = [
     { title: 'Word Cloud', path: '/wordcloud', description: 'Visualize frequently used words in haunted sighting descriptions.' },
     { title: 'Spike Map', path: '/spike-map', description: 'Geographic distribution of sightings by city across the US.' },
-    { title: 'Choropleth Map', path: '/choropleth', description: 'Explore death rates per state and possible correlation with hauntings.' },
+    { title: 'Choropleth Map', path: '/choropleth', description: 'Explore state-based metrics and possible correlation with hauntings.' },
     { title: 'Entity Bar Chart', path: '/entities', description: 'See which named entities (like dates, people, and places) appear most in haunted reports.' },
-		{ title: 'Apparition Bar Chart', path: '/apparition', description: 'See which apparitions (like ghost and orb) appear most with what characteristics, visualized with a selectable stacked bar chart.'}
+		{ title: 'Apparition Bar Chart', path: '/apparition', description: 'See which apparitions (like ghost and orb) appear most with what characteristics.'}
 	];
 
   return (
@@ -25,6 +25,7 @@ const HomePage = () => {
         ))}
       </div>
 
+      <hr style={{backgroundColor: "#757575", height: "1px", border: "none"}}></hr>
 			<p>AI-Generated Images by Stable Diffusion</p>
 			<ImageCarousel />
     </div>

@@ -128,7 +128,7 @@ const ApparitionChart = () => {
     // Color scale for event Types
     const colorScale = d3.scaleOrdinal()
       .domain(eventTypes)
-      .range(d3.schemeCategory10);
+      .range(d3.schemeTableau10);
 
     // Render grouped bars
     const stack = d3.stack().keys(eventTypes);

@@ -15,7 +15,7 @@ const HomePage = () => {
   return (
     <div className="home-wrapper">
       <h1>Haunted Places in the US</h1>
-      <h3>Data Insights with D3</h3>
+      <p>Data Insights with D3</p>
       <div className="card-grid">
         {visualizations.map((viz, index) => (
           <Link to={viz.path} key={index} className="viz-card">
@@ -25,8 +25,7 @@ const HomePage = () => {
         ))}
       </div>
 
-			<hr style={{backgroundColor: "#757575", height: "1px", border: "none"}}></hr>
-			<h3>AI-Generated Images by Stable Diffusion</h3>
+			<p>AI-Generated Images by Stable Diffusion</p>
 			<ImageCarousel />
     </div>
   );

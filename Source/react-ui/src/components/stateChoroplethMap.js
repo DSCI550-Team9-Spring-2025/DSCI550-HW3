@@ -200,7 +200,7 @@ const ChoroplethMap = () => {
         <strong>Insight:</strong><br/>
         There appears to be negative correlation between sightings (see Spike Map) and suicides. 
         Besides potentially unintentional injuries, suicide seems to be the most morbid among the leading causes - Word Cloud suggests that a significant portion of trigger events were morbid.
-        This map supports the notion that many of such suicide-triggering hauntings may have happened where suicide rates were greatest such as in Montana, Wyoming, and New Mexico.
+        This map supports the notion that many of such suicide-triggering hauntings may have happened where suicide rates were greatest such as in Wyoming, Montana, and New Mexico.
       </p>
       <label>
           Choose a metric:{" "}

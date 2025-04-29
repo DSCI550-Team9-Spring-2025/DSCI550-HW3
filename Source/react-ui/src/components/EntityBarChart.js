@@ -58,7 +58,7 @@ const EntityBarChart = () => {
       .selectAll("rect")
       .data(sorted)
       .join("rect")
-      .attr("fill", "orange")
+      .attr("fill", "#6BADCE")
       .attr("x", d => x(d.label))
       .attr("y", d => y(d.count))
       .attr("height", d => y(0) - y(d.count))
@@ -78,7 +78,7 @@ const EntityBarChart = () => {
 
   return (
     <div className="barchart-wrapper">
-      <h2>Named Entity Sortable Bar Chart</h2>
+      <h2>Entity Bar Chart</h2>
       <p>
         SpaCy-recognized named-entities across all sighting descriptions.<br/><br/>
         <strong>Insight:</strong><br/>

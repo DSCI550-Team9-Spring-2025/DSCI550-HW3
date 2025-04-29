@@ -62,7 +62,7 @@ const WordCloud = () => {
       .on("word", ({ size, x, y, rotate, text }) => {
         g.append("text")
           .attr("font-size", size)
-          .attr("fill", d3.schemeCategory10[Math.floor(Math.random() * 10)])
+          .attr("fill", () => d3.schemePuBu[9][Math.floor(Math.random() * 9)])
           .attr("transform", `translate(${x},${y}) rotate(${rotate})`)
           .text(text);
       });
@@ -81,7 +81,7 @@ const WordCloud = () => {
       <h2>Word Cloud</h2>
       <p>
         Illustrates frequent words used in sighting descriptions.
-        Cycles through 50 description subset partitions.<br/><br/>
+        Cycles through ~200 sighting descriptions at a time.<br/><br/>
         <strong>Insight:</strong><br/>
         Many of the larger words indicate common settings such as at a school or cemetery, 
         as well as insight into the type of event that may have triggered the haunting such as a fire or murder.

@@ -219,7 +219,7 @@ const SpikeMap = () => {
         A large spike in Honolulu, Hawaii may suggest numerous dark occurrences there, or maybe superstitions? 
         Same with San Antonio, Tuscon, and El Paso - perhaps the spirits of Native Americans affected by Manifest Destiny?<br/>
         At the state aggregate level, California, Texas, and Pennsylvania have substantially more haunted places hotspot compared to other US states. California and Texas have large populations that may lead to more reported sightings. Pennsylvania has many historic towns like Philadelphia where many key battles were fought during the Revolutionary War and Civil War that may contribute to more hauntings.<br/>
-        When looking at the apparitions mentioned within the haunted places, we find that the average is 0.59 apparition mentions for every haunted place. Ghosts, apparitions, spirits, and figures tend to be most frequently sighted supernatural occurences. This indicates that haunted places are predominantly occupied and associated with the decessed that linger with Earthly attachments.
+        When looking at the apparitions mentioned within the haunted places, we find that the average is 0.59 apparition mentions for every haunted place. Ghosts, apparitions, spirits, and figures tend to be most frequently sighted supernatural occurences. This indicates that haunted places are predominantly occupied and associated with the deceased that linger with Earthly attachments.
       </p>
       <div style={{ marginBottom: '1rem' }}>
         {resetZoom && <button onClick={resetZoom}>Reset View</button>}

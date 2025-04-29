@@ -62,7 +62,7 @@ const WordCloud = () => {
       .on("word", ({ size, x, y, rotate, text }) => {
         g.append("text")
           .attr("font-size", size)
-          .attr("fill", d3.schemeCategory10[Math.floor(Math.random() * 10)])
+          .attr("fill", () => d3.schemePuBu[9][Math.floor(Math.random() * 9)])
           .attr("transform", `translate(${x},${y}) rotate(${rotate})`)
           .text(text);
       });

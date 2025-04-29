@@ -78,7 +78,7 @@ const EntityBarChart = () => {
 
   return (
     <div className="barchart-wrapper">
-      <h2>Named Entity Sortable Bar Chart</h2>
+      <h2>Entity Bar Chart</h2>
       <p>
         SpaCy-recognized named-entities across all sighting descriptions.<br/><br/>
         <strong>Insight:</strong><br/>

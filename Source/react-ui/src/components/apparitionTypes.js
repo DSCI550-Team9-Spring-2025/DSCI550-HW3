@@ -92,7 +92,7 @@ const ApparitionChart = () => {
     svg.selectAll("*").remove();
 
     const margin = { top: 50, right: 30, bottom: 100, left: 60 };
-    const width = 975 - margin.left - margin.right;
+    const width = 975 - margin.left - margin.right + 20;
     const height = 630 - margin.top - margin.bottom;
 
     setChartWidth(975);
@@ -163,7 +163,7 @@ const ApparitionChart = () => {
       .text(d => d.total);
 
     // Add legend information
-    const legend = svg.append("g").attr("transform", `translate(${margin.left},${height + margin.top + 20})`);
+    const legend = svg.append("g").attr("transform", `translate(${margin.left},${height + margin.top + 25})`);
     eventTypes.forEach((type, i) => {
       const g = legend.append("g").attr("transform", `translate(${i * 100}, 0)`);
       g.append("rect").attr("width", 12).attr("height", 12).attr("fill", colorScale(type));
@@ -177,21 +177,21 @@ const ApparitionChart = () => {
 
   return (
     <div className="apparition-features-wrapper">
-      <h2>Apparition Characteristics</h2>
+      <h2>Apparition Bar Chart</h2>
       <p>
-        Keyword match and extracted apparition types from the haunted places descriptions.<br/><br/>
+        Extracted apparition characteristics from haunted sighting descriptions.<br/><br/>
         <strong>Insight:</strong><br/>
-        "Ghost" overwhelmingly dominate apparition landscape being 2.7x more frequently occuring the next largest apparition, "spirit".  likely because ghostly figures are deeply embedded in cultural beliefs about being haunted by those who have passed with unfinished business from Earth.
-        The vast majority of apparitions are associated with "Supernatural" elements followed by "murder" related events. The origins of these hauntings can be traced back to the idea that unnatural disturbances and deaths can serve as the catalyst for paranormal activity.  
+        "Ghost" overwhelmingly dominates the apparition landscape being 2.7x more frequent than the next largest apparition, "spirit", likely because ghostly figures are deeply embedded in cultural beliefs about being haunted by those who have passed with unfinished business from Earth.
+        The vast majority of apparitions are associated with "Supernatural" events followed by "Murder" related events. The origins of these hauntings can be traced back to the idea that unnatural disturbances and deaths can serve as the catalyst for paranormal activity.  
         When looking at the availability of audio and visual evidence, there is more prevalence of audio evidence (whispers, footsteps, creaks) likely because it is far easier to record sounds in dark or fast-moving situations. Capturing visual proof (photos, footage, videos) can be especially tricky with elusive apparitions and creatures compounded with the technological challenges and panic that may ensue with these near encounters.
         Apparitions spike significantly during Dusk - nearly 6x more than in Morning. As daylight fades, reduced visibility and heightened environmental sensitivity may amplify the perception of supernatural activity, making Dusk a prime window for encounters with apparitions.
       </p>
       <div
         className="filters"
-        style={{ marginBottom: "1rem", textAlign: "center" }}
+        style={{ textAlign: "center", marginTop: "2rem"}}
       >
         <label>
-          Time of Day: 
+          Time of Day: {' '}
           <select
             onChange={(e) => setFilterSettings(prev => ({ ...prev, time_of_day: e.target.value }))}
             value={filterSettings.time_of_day}
@@ -201,10 +201,11 @@ const ApparitionChart = () => {
             <option value="Dusk">Dusk</option>
             <option value="Evening">Evening</option>
           </select>
+          <br/>
         </label>
 
         <label>
-          Audio Evidence:
+          Audio Evidence: {' '}
           <select
             onChange={(e) =>
               setFilterSettings(prev => ({
@@ -218,10 +219,11 @@ const ApparitionChart = () => {
             <option value="true">Yes</option>
             <option value="false">No</option>
           </select>
+          <br/>
         </label>
 
         <label>
-          Visual Evidence:
+          Visual Evidence: {' '}
           <select
             onChange={(e) =>
               setFilterSettings(prev => ({
@@ -235,6 +237,7 @@ const ApparitionChart = () => {
             <option value="true">Yes</option>
             <option value="false">No</option>
           </select>
+          <br/>
         </label>
 
         <label>
@@ -247,10 +250,11 @@ const ApparitionChart = () => {
             }
             style={{ width: "60px", marginLeft: "5px" }}
           />
+          <br/>
         </label>
 
         <label>
-          Max Witnesses:
+          Max Witnesses: {' '}
           <input
             type="number"
             value={filterSettings.witness_max === Infinity ? "" : filterSettings.witness_max}
@@ -262,6 +266,7 @@ const ApparitionChart = () => {
             }
             style={{ width: "60px", marginLeft: "5px" }}
           />
+          <br/>
         </label>
 
         <label>
@@ -278,7 +283,7 @@ const ApparitionChart = () => {
           Include Unknowns
         </label>
       </div>
-      <div style={{ marginBottom: "1rem", textAlign: "center" }}>
+      <div style={{ marginTop: "-1rem", marginLeft: "-1.5rem", textAlign: "center" }}>
         <svg ref={ref} width={chartWidth} height={chartHeight}></svg>
       </div>
     </div>

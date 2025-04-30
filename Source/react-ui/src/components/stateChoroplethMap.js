@@ -200,7 +200,9 @@ const ChoroplethMap = () => {
         <strong>Insight:</strong><br/>
         There appears to be negative correlation between sightings (see Spike Map) and suicides. 
         Besides potentially unintentional injuries, suicide seems to be the most morbid among the leading causes - Word Cloud suggests that a significant portion of trigger events were morbid.
-        This map supports the notion that many of such suicide-triggering hauntings may have happened where suicide rates were greatest such as in Wyoming, Montana, and New Mexico.
+        This map supports the notion that many of such suicide-triggering hauntings may have happened where suicide rates were greatest such as in Wyoming, Montana, and New Mexico. However, overall concentration of hauntings don't correlate with the suicide rates. Potential reason may be due to the more common acceptance of suicide where it's not considered unique to the origins of a haunted place or simply that there is a confounding variable that population density is lower in rural areas compared to urban centers.<br/><br/>
+        When looking at education metrics, the undergraduate graduation rate is positively correlated with the spike map. A potential reason is that urban areas where there are higher importance on college acceptance and graduation may lend itself to a population that is more prone to documenting and sharing haunted places findings in a more community-based data-driven effort.<br/><br/>
+        The murder crime rate is positively correlated with the haunted places spike map. The Midwest and Southeast regions have higher rates of murders per capita and this could provide some clues and explainability to the deathly origins of haunted places. From the apparitions chart: Ghosts, spirits, and apparitions rank among the highest apparition types and these are all in alignment with a violent, untimely crime like murder. <i>*Note: Crime rate data should be interpreted with caution, as inconsistent state-level reporting may lead to misleading comparisons or overrepresentation in more transparent regions.</i>
       </p>
       <label>
           Choose a metric:{" "}

@@ -2,8 +2,10 @@
 
 Insights visualization of the Haunted Places in the US dataset using D3 along with additonal insights from ImageSpace, the MEMEX GeoParser, and Apache Solr/Elastic Search.
 
-## React for D3 visualization
-![image](https://github.com/user-attachments/assets/32f11286-9a12-4c28-b272-702151dffc55)
+## Data Insights Web Page
+TSV->JSON preprocessing scripts: `Source/*.[ipynb|py]`<br><br>
+![image](https://github.com/user-attachments/assets/5aacbb58-760d-427c-93ef-1bb1d3f91732)
+
 
 ## Memex ImageSpace
 Haunted places dataset image forensics and similarity analysis using NASA-JPL-ImageSpace

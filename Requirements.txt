@@ -1,0 +1,4 @@
+# run 'pip install -r Requirements.txt`
+# note: this is only for Python packages in virtual enviornments
+numpy
+pandas

@@ -9,7 +9,7 @@ import ApparitionChart from './components/apparitionTypes';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
         <nav className="nav-bar">
           <ul className="nav-list">

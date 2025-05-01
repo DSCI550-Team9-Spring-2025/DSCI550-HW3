@@ -27,7 +27,7 @@ Full description of the D3 visualization and insights analysis can be found here
 <img width="824" alt="image" src="https://github.com/user-attachments/assets/34ecc612-10d3-431a-b8d9-fa79b3327e7f" />
 
 
-# Haunted places dataseet map visualization and forensics
+# Haaunted places Dataset map visualization and forensics analysis
 
 **Haunted places dataset image forensics and similarity analysis using NASA-JPL-ImageSpace**<br>
 https://github.com/Hibis5946/Haunted-places-dataset-image-forensics-and-similarity-analysis-using-NASA-JPL-ImageSpace.git<br>
